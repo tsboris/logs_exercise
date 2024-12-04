@@ -1,0 +1,291 @@
+2024-12-01 14:07:34 - INFO - User user123 performed remove_from_cart on Tablet
+2024-12-01 14:07:35 - INFO - User customer456 performed remove_from_cart on Smartphone
+2024-12-01 14:07:35 - INFO - User client202 performed view_product on Laptop
+2024-12-01 14:07:35 - INFO - User client202 performed add_to_cart on Headphones
+2024-12-01 14:07:35 - INFO - User customer456 performed checkout on Smartwatch
+2024-12-01 14:07:35 - ERROR - System Error: Database connection timeout during remove_from_cart
+Traceback (most recent call last):
+  File "/Users/borist/develeap/seniority/log-analysis-demo/nginx_test_gen_ai/generate_python_multiline_log.py", line 39, in <module>
+    raise Exception(f"Database connection timeout during {action}")
+Exception: Database connection timeout during remove_from_cart
+2024-12-01 14:07:35 - INFO - User client202 performed view_product on Smartwatch
+2024-12-01 14:07:35 - INFO - User buyer789 performed add_to_cart on Laptop
+2024-12-01 14:07:35 - INFO - User customer456 performed view_product on Laptop
+2024-12-01 14:07:35 - INFO - User customer456 performed checkout on Smartphone
+2024-12-01 14:07:36 - INFO - User customer456 performed checkout on Headphones
+2024-12-01 14:07:36 - INFO - User buyer789 performed add_to_cart on Tablet
+2024-12-01 14:07:36 - INFO - User shopper101 performed remove_from_cart on Laptop
+2024-12-01 14:07:36 - INFO - User user123 performed checkout on Tablet
+2024-12-01 14:07:36 - INFO - User user123 performed search on Tablet
+2024-12-01 14:07:36 - INFO - User shopper101 performed view_product on Smartwatch
+2024-12-01 14:07:36 - INFO - User shopper101 performed search on Tablet
+2024-12-01 14:07:36 - INFO - User user123 performed checkout on Laptop
+2024-12-01 14:07:36 - INFO - User shopper101 performed view_product on Headphones
+2024-12-01 14:07:36 - ERROR - System Error: Database connection timeout during add_to_cart
+Traceback (most recent call last):
+  File "/Users/borist/develeap/seniority/log-analysis-demo/nginx_test_gen_ai/generate_python_multiline_log.py", line 39, in <module>
+    raise Exception(f"Database connection timeout during {action}")
+Exception: Database connection timeout during add_to_cart
+2024-12-01 14:07:37 - ERROR - System Error: Database connection timeout during search
+Traceback (most recent call last):
+  File "/Users/borist/develeap/seniority/log-analysis-demo/nginx_test_gen_ai/generate_python_multiline_log.py", line 39, in <module>
+    raise Exception(f"Database connection timeout during {action}")
+Exception: Database connection timeout during search
+2024-12-01 14:07:37 - INFO - User client202 performed search on Tablet
+2024-12-01 14:07:37 - INFO - User client202 performed search on Headphones
+2024-12-01 14:07:37 - INFO - User buyer789 performed checkout on Smartphone
+2024-12-01 14:07:37 - INFO - User shopper101 performed add_to_cart on Headphones
+2024-12-01 14:07:37 - INFO - User shopper101 performed view_product on Smartwatch
+2024-12-01 14:07:37 - INFO - User user123 performed remove_from_cart on Smartphone
+2024-12-01 14:07:37 - INFO - User client202 performed view_product on Smartphone
+2024-12-01 14:07:37 - INFO - User buyer789 performed checkout on Tablet
+2024-12-01 14:07:37 - INFO - User client202 performed remove_from_cart on Smartwatch
+2024-12-01 14:07:38 - INFO - User shopper101 performed add_to_cart on Smartphone
+2024-12-01 14:07:38 - INFO - User user123 performed view_product on Laptop
+2024-12-01 14:07:38 - INFO - User client202 performed search on Smartphone
+2024-12-01 14:07:38 - INFO - User client202 performed remove_from_cart on Laptop
+2024-12-01 14:07:38 - INFO - User user123 performed view_product on Laptop
+2024-12-01 14:07:38 - INFO - User user123 performed add_to_cart on Smartphone
+2024-12-01 14:07:38 - INFO - User shopper101 performed add_to_cart on Headphones
+2024-12-01 14:07:38 - INFO - User buyer789 performed view_product on Headphones
+2024-12-01 14:07:38 - INFO - User buyer789 performed view_product on Smartwatch
+2024-12-01 14:07:39 - INFO - User shopper101 performed remove_from_cart on Headphones
+2024-12-01 14:07:39 - INFO - User client202 performed view_product on Smartwatch
+2024-12-01 14:07:39 - INFO - User buyer789 performed add_to_cart on Headphones
+2024-12-01 14:07:39 - INFO - User user123 performed view_product on Tablet
+2024-12-01 14:07:39 - INFO - User client202 performed checkout on Tablet
+2024-12-01 14:07:39 - INFO - User buyer789 performed add_to_cart on Laptop
+2024-12-01 14:07:39 - INFO - User buyer789 performed checkout on Laptop
+2024-12-01 14:07:39 - INFO - User customer456 performed checkout on Laptop
+2024-12-01 14:07:39 - INFO - User user123 performed add_to_cart on Headphones
+2024-12-01 14:07:39 - ERROR - Order Processing Error: Payment processing failed for user buyer789
+Traceback (most recent call last):
+  File "/Users/borist/develeap/seniority/log-analysis-demo/nginx_test_gen_ai/generate_python_multiline_log.py", line 37, in <module>
+    raise OrderProcessingError(f"Payment processing failed for user {user}")
+OrderProcessingError: Payment processing failed for user buyer789
+2024-12-01 14:07:40 - INFO - User user123 performed remove_from_cart on Headphones
+2024-12-01 14:07:40 - INFO - User client202 performed search on Laptop
+2024-12-01 14:07:40 - INFO - User customer456 performed checkout on Headphones
+2024-12-01 14:07:40 - INFO - User customer456 performed view_product on Headphones
+2024-12-01 14:07:40 - INFO - User buyer789 performed checkout on Headphones
+2024-12-01 14:07:40 - INFO - User shopper101 performed remove_from_cart on Headphones
+2024-12-01 14:07:40 - INFO - User customer456 performed remove_from_cart on Laptop
+2024-12-01 14:07:40 - INFO - User customer456 performed search on Tablet
+2024-12-01 14:07:40 - INFO - User client202 performed view_product on Headphones
+2024-12-01 14:07:40 - INFO - User buyer789 performed remove_from_cart on Laptop
+2024-12-01 14:07:41 - INFO - User buyer789 performed add_to_cart on Tablet
+2024-12-01 14:07:41 - INFO - User client202 performed add_to_cart on Smartphone
+2024-12-01 14:07:41 - INFO - User buyer789 performed search on Laptop
+2024-12-01 14:07:41 - ERROR - System Error: Database connection timeout during add_to_cart
+Traceback (most recent call last):
+  File "/Users/borist/develeap/seniority/log-analysis-demo/nginx_test_gen_ai/generate_python_multiline_log.py", line 39, in <module>
+    raise Exception(f"Database connection timeout during {action}")
+Exception: Database connection timeout during add_to_cart
+2024-12-01 14:07:41 - INFO - User customer456 performed search on Smartwatch
+2024-12-01 14:07:41 - INFO - User client202 performed remove_from_cart on Laptop
+2024-12-01 14:07:41 - INFO - User buyer789 performed view_product on Smartwatch
+2024-12-01 14:07:41 - INFO - User client202 performed checkout on Tablet
+2024-12-01 14:07:41 - INFO - User shopper101 performed view_product on Laptop
+2024-12-01 14:07:42 - INFO - User shopper101 performed remove_from_cart on Smartwatch
+2024-12-01 14:07:42 - INFO - User customer456 performed search on Headphones
+2024-12-01 14:07:42 - INFO - User buyer789 performed add_to_cart on Laptop
+2024-12-01 14:07:42 - INFO - User shopper101 performed view_product on Smartphone
+2024-12-01 14:07:42 - ERROR - System Error: Database connection timeout during search
+Traceback (most recent call last):
+  File "/Users/borist/develeap/seniority/log-analysis-demo/nginx_test_gen_ai/generate_python_multiline_log.py", line 39, in <module>
+    raise Exception(f"Database connection timeout during {action}")
+Exception: Database connection timeout during search
+2024-12-01 14:07:42 - INFO - User buyer789 performed search on Laptop
+2024-12-01 14:07:42 - INFO - User user123 performed add_to_cart on Headphones
+2024-12-01 14:07:42 - INFO - User client202 performed remove_from_cart on Headphones
+2024-12-01 14:07:42 - ERROR - System Error: Database connection timeout during search
+Traceback (most recent call last):
+  File "/Users/borist/develeap/seniority/log-analysis-demo/nginx_test_gen_ai/generate_python_multiline_log.py", line 39, in <module>
+    raise Exception(f"Database connection timeout during {action}")
+Exception: Database connection timeout during search
+2024-12-01 14:07:42 - INFO - User buyer789 performed view_product on Smartwatch
+2024-12-01 14:07:43 - ERROR - System Error: Database connection timeout during remove_from_cart
+Traceback (most recent call last):
+  File "/Users/borist/develeap/seniority/log-analysis-demo/nginx_test_gen_ai/generate_python_multiline_log.py", line 39, in <module>
+    raise Exception(f"Database connection timeout during {action}")
+Exception: Database connection timeout during remove_from_cart
+2024-12-01 14:07:43 - INFO - User user123 performed view_product on Tablet
+2024-12-01 14:07:43 - ERROR - System Error: Database connection timeout during add_to_cart
+Traceback (most recent call last):
+  File "/Users/borist/develeap/seniority/log-analysis-demo/nginx_test_gen_ai/generate_python_multiline_log.py", line 39, in <module>
+    raise Exception(f"Database connection timeout during {action}")
+Exception: Database connection timeout during add_to_cart
+2024-12-01 14:07:43 - INFO - User user123 performed search on Headphones
+2024-12-01 14:07:43 - INFO - User user123 performed view_product on Smartphone
+2024-12-01 14:07:43 - INFO - User client202 performed remove_from_cart on Headphones
+2024-12-01 14:07:43 - INFO - User buyer789 performed view_product on Smartwatch
+2024-12-01 14:07:43 - INFO - User user123 performed add_to_cart on Laptop
+2024-12-01 14:07:43 - INFO - User customer456 performed checkout on Laptop
+2024-12-01 14:07:44 - INFO - User buyer789 performed remove_from_cart on Smartwatch
+2024-12-01 14:07:44 - ERROR - Order Processing Error: Payment processing failed for user user123
+Traceback (most recent call last):
+  File "/Users/borist/develeap/seniority/log-analysis-demo/nginx_test_gen_ai/generate_python_multiline_log.py", line 37, in <module>
+    raise OrderProcessingError(f"Payment processing failed for user {user}")
+OrderProcessingError: Payment processing failed for user user123
+2024-12-01 14:07:44 - INFO - User user123 performed add_to_cart on Tablet
+2024-12-01 14:07:44 - INFO - User customer456 performed checkout on Smartphone
+2024-12-01 14:07:44 - INFO - User user123 performed search on Laptop
+2024-12-01 14:07:44 - INFO - User user123 performed search on Smartphone
+2024-12-01 14:07:44 - INFO - User shopper101 performed search on Laptop
+2024-12-01 14:07:44 - INFO - User shopper101 performed view_product on Smartwatch
+2024-12-01 14:07:44 - INFO - User shopper101 performed add_to_cart on Tablet
+2024-12-01 14:07:44 - INFO - User customer456 performed view_product on Smartphone
+2024-12-01 14:07:45 - INFO - User client202 performed view_product on Laptop
+2024-12-01 14:07:45 - INFO - User client202 performed checkout on Laptop
+2024-12-01 14:07:45 - INFO - User shopper101 performed search on Smartphone
+2024-12-01 14:09:18 - INFO - User user123 performed checkout on Smartwatch
+2024-12-01 14:09:18 - ERROR - System Error: Failed to validate inventory
+Traceback (most recent call last):
+  File "/Users/borist/develeap/seniority/log-analysis-demo/nginx_test_gen_ai/generate_python_multiline_log.py", line 61, in <module>
+    execute_checkout(user, product)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/borist/develeap/seniority/log-analysis-demo/nginx_test_gen_ai/generate_python_multiline_log.py", line 35, in execute_checkout
+    validate_order(user, product)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/borist/develeap/seniority/log-analysis-demo/nginx_test_gen_ai/generate_python_multiline_log.py", line 31, in validate_order
+    raise DatabaseError("Failed to validate inventory")
+DatabaseError: Failed to validate inventory
+2024-12-01 14:09:19 - INFO - User shopper101 performed checkout on Headphones
+2024-12-01 14:09:19 - INFO - User buyer789 performed checkout on Laptop
+2024-12-01 14:09:19 - INFO - User user123 performed add_to_cart on Laptop
+2024-12-01 14:09:19 - INFO - User buyer789 performed add_to_cart on Headphones
+2024-12-01 14:09:19 - INFO - User buyer789 performed remove_from_cart on Headphones
+2024-12-01 14:09:19 - INFO - User user123 performed view_product on Tablet
+2024-12-01 14:09:19 - ERROR - System Error: Failed to validate inventory
+Traceback (most recent call last):
+  File "/Users/borist/develeap/seniority/log-analysis-demo/nginx_test_gen_ai/generate_python_multiline_log.py", line 61, in <module>
+    execute_checkout(user, product)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/borist/develeap/seniority/log-analysis-demo/nginx_test_gen_ai/generate_python_multiline_log.py", line 35, in execute_checkout
+    validate_order(user, product)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/borist/develeap/seniority/log-analysis-demo/nginx_test_gen_ai/generate_python_multiline_log.py", line 31, in validate_order
+    raise DatabaseError("Failed to validate inventory")
+DatabaseError: Failed to validate inventory
+2024-12-01 14:09:19 - INFO - User client202 performed add_to_cart on Smartphone
+2024-12-01 14:09:19 - INFO - User shopper101 performed checkout on Smartphone
+2024-12-01 14:09:19 - INFO - User user123 performed remove_from_cart on Headphones
+2024-12-01 14:09:20 - INFO - User shopper101 performed search on Smartwatch
+2024-12-01 14:09:20 - INFO - User buyer789 performed search on Smartwatch
+2024-12-01 14:09:20 - INFO - User buyer789 performed view_product on Smartwatch
+2024-12-01 14:09:20 - INFO - User shopper101 performed search on Smartwatch
+2024-12-01 14:09:20 - INFO - User customer456 performed view_product on Laptop
+2024-12-01 14:09:20 - INFO - User buyer789 performed view_product on Smartphone
+2024-12-01 14:09:20 - INFO - User user123 performed add_to_cart on Headphones
+2024-12-01 14:09:20 - INFO - User user123 performed search on Headphones
+2024-12-01 14:09:20 - INFO - User client202 performed search on Headphones
+2024-12-01 14:09:20 - INFO - User client202 performed add_to_cart on Tablet
+2024-12-01 14:09:21 - INFO - User shopper101 performed add_to_cart on Laptop
+2024-12-01 14:09:21 - INFO - User customer456 performed checkout on Smartphone
+2024-12-01 14:09:21 - INFO - User client202 performed add_to_cart on Tablet
+2024-12-01 14:09:21 - INFO - User client202 performed search on Smartphone
+2024-12-01 14:09:21 - INFO - User buyer789 performed search on Smartwatch
+2024-12-01 14:09:21 - INFO - User shopper101 performed add_to_cart on Laptop
+2024-12-01 14:09:21 - INFO - User customer456 performed checkout on Smartwatch
+2024-12-01 14:09:21 - INFO - User customer456 performed remove_from_cart on Smartwatch
+2024-12-01 14:09:21 - INFO - User buyer789 performed search on Smartphone
+2024-12-01 14:09:22 - INFO - User buyer789 performed view_product on Headphones
+2024-12-01 14:09:22 - INFO - User customer456 performed remove_from_cart on Smartphone
+2024-12-01 14:09:22 - INFO - User client202 performed search on Tablet
+2024-12-01 14:09:22 - ERROR - System Error: Connection pool exhausted during view_product
+Traceback (most recent call last):
+  File "/Users/borist/develeap/seniority/log-analysis-demo/nginx_test_gen_ai/generate_python_multiline_log.py", line 63, in <module>
+    perform_database_operation(action)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/Users/borist/develeap/seniority/log-analysis-demo/nginx_test_gen_ai/generate_python_multiline_log.py", line 41, in perform_database_operation
+    raise DatabaseError(f"Connection pool exhausted during {action}")
+DatabaseError: Connection pool exhausted during view_product
+2024-12-01 14:09:22 - INFO - User customer456 performed remove_from_cart on Smartwatch
+2024-12-01 14:09:22 - INFO - User shopper101 performed add_to_cart on Smartwatch
+2024-12-01 14:09:22 - INFO - User user123 performed checkout on Tablet
+2024-12-01 14:09:22 - INFO - User client202 performed view_product on Laptop
+2024-12-01 14:09:22 - INFO - User buyer789 performed remove_from_cart on Tablet
+2024-12-01 14:09:22 - INFO - User shopper101 performed checkout on Smartphone
+2024-12-01 14:09:23 - INFO - User shopper101 performed view_product on Smartphone
+2024-12-01 14:09:23 - INFO - User customer456 performed remove_from_cart on Smartwatch
+2024-12-01 14:09:23 - INFO - User client202 performed view_product on Laptop
+2024-12-01 14:09:23 - INFO - User customer456 performed checkout on Tablet
+2024-12-01 14:09:23 - INFO - User customer456 performed search on Laptop
+2024-12-01 14:09:23 - INFO - User customer456 performed remove_from_cart on Tablet
+2024-12-01 14:09:23 - INFO - User shopper101 performed checkout on Headphones
+2024-12-01 14:09:23 - INFO - User customer456 performed search on Headphones
+2024-12-01 14:09:23 - INFO - User client202 performed search on Headphones
+2024-12-01 14:09:23 - INFO - User customer456 performed add_to_cart on Headphones
+2024-12-01 14:09:24 - INFO - User user123 performed add_to_cart on Smartwatch
+2024-12-01 14:09:24 - INFO - User shopper101 performed view_product on Smartwatch
+2024-12-01 14:09:24 - INFO - User buyer789 performed search on Laptop
+2024-12-01 14:09:24 - INFO - User user123 performed add_to_cart on Laptop
+2024-12-01 14:09:24 - ERROR - System Error: Connection pool exhausted during remove_from_cart
+Traceback (most recent call last):
+  File "/Users/borist/develeap/seniority/log-analysis-demo/nginx_test_gen_ai/generate_python_multiline_log.py", line 63, in <module>
+    perform_database_operation(action)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/Users/borist/develeap/seniority/log-analysis-demo/nginx_test_gen_ai/generate_python_multiline_log.py", line 41, in perform_database_operation
+    raise DatabaseError(f"Connection pool exhausted during {action}")
+DatabaseError: Connection pool exhausted during remove_from_cart
+2024-12-01 14:09:24 - INFO - User customer456 performed view_product on Headphones
+2024-12-01 14:09:24 - INFO - User customer456 performed view_product on Smartwatch
+2024-12-01 14:09:24 - INFO - User client202 performed checkout on Laptop
+2024-12-01 14:09:24 - INFO - User shopper101 performed checkout on Laptop
+2024-12-01 14:09:25 - INFO - User user123 performed view_product on Headphones
+2024-12-01 14:09:25 - INFO - User shopper101 performed search on Headphones
+2024-12-01 14:09:25 - INFO - User shopper101 performed add_to_cart on Laptop
+2024-12-01 14:09:25 - INFO - User shopper101 performed search on Tablet
+2024-12-01 14:09:25 - INFO - User shopper101 performed view_product on Smartphone
+2024-12-01 14:09:25 - ERROR - System Error: Connection pool exhausted during remove_from_cart
+Traceback (most recent call last):
+  File "/Users/borist/develeap/seniority/log-analysis-demo/nginx_test_gen_ai/generate_python_multiline_log.py", line 63, in <module>
+    perform_database_operation(action)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/Users/borist/develeap/seniority/log-analysis-demo/nginx_test_gen_ai/generate_python_multiline_log.py", line 41, in perform_database_operation
+    raise DatabaseError(f"Connection pool exhausted during {action}")
+DatabaseError: Connection pool exhausted during remove_from_cart
+2024-12-01 14:09:25 - INFO - User customer456 performed search on Smartphone
+2024-12-01 14:09:25 - INFO - User shopper101 performed view_product on Tablet
+2024-12-01 14:09:25 - INFO - User client202 performed view_product on Tablet
+2024-12-01 14:09:25 - INFO - User client202 performed search on Headphones
+2024-12-01 14:09:26 - INFO - User client202 performed view_product on Laptop
+2024-12-01 14:09:26 - INFO - User user123 performed checkout on Headphones
+2024-12-01 14:09:26 - ERROR - System Error: External payment service unavailable
+Traceback (most recent call last):
+  File "/Users/borist/develeap/seniority/log-analysis-demo/nginx_test_gen_ai/generate_python_multiline_log.py", line 61, in <module>
+    execute_checkout(user, product)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/borist/develeap/seniority/log-analysis-demo/nginx_test_gen_ai/generate_python_multiline_log.py", line 36, in execute_checkout
+    process_payment(user)
+    ~~~~~~~~~~~~~~~^^^^^^
+  File "/Users/borist/develeap/seniority/log-analysis-demo/nginx_test_gen_ai/generate_python_multiline_log.py", line 26, in process_payment
+    raise PaymentGatewayError("External payment service unavailable")
+PaymentGatewayError: External payment service unavailable
+2024-12-01 14:09:26 - INFO - User client202 performed view_product on Headphones
+2024-12-01 14:09:26 - INFO - User customer456 performed add_to_cart on Laptop
+2024-12-01 14:09:26 - INFO - User user123 performed search on Headphones
+2024-12-01 14:09:26 - INFO - User client202 performed search on Tablet
+2024-12-01 14:09:26 - INFO - User shopper101 performed add_to_cart on Smartphone
+2024-12-01 14:09:26 - INFO - User user123 performed remove_from_cart on Smartphone
+2024-12-01 14:09:26 - INFO - User buyer789 performed remove_from_cart on Smartphone
+2024-12-01 14:09:27 - INFO - User client202 performed add_to_cart on Smartwatch
+2024-12-01 14:09:27 - INFO - User customer456 performed view_product on Headphones
+2024-12-01 14:09:27 - INFO - User user123 performed add_to_cart on Tablet
+2024-12-01 14:09:27 - INFO - User user123 performed add_to_cart on Headphones
+2024-12-01 14:09:27 - INFO - User client202 performed add_to_cart on Smartphone
+2024-12-01 14:09:27 - INFO - User user123 performed add_to_cart on Headphones
+2024-12-01 14:09:27 - INFO - User user123 performed checkout on Tablet
+2024-12-01 14:09:27 - INFO - User client202 performed checkout on Headphones
+2024-12-01 14:09:27 - INFO - User user123 performed add_to_cart on Smartwatch
+2024-12-01 14:09:27 - INFO - User user123 performed view_product on Smartwatch
+2024-12-01 14:09:28 - INFO - User shopper101 performed search on Tablet
+2024-12-01 14:09:28 - INFO - User user123 performed checkout on Tablet
+2024-12-01 14:09:28 - INFO - User buyer789 performed search on Laptop
+2024-12-01 14:09:28 - INFO - User customer456 performed checkout on Headphones
+2024-12-01 14:09:28 - INFO - User customer456 performed add_to_cart on Tablet
+2024-12-01 14:09:28 - INFO - User buyer789 performed checkout on Headphones
+2024-12-01 14:09:28 - INFO - User buyer789 performed search on Laptop
+2024-12-01 14:09:28 - INFO - User user123 performed add_to_cart on Tablet
+2024-12-01 14:09:28 - INFO - User customer456 performed search on Laptop
+2024-12-01 14:09:29 - INFO - User user123 performed checkout on Headphones

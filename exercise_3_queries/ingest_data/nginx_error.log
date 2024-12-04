@@ -1,0 +1,1002 @@
+2024/11/11 00:00:00 [notice] 8992#147178: *711 upstream sent too big header while reading response header from upstream, client: 199.234.45.81
+2024/11/11 00:01:00 [error] 4230#417620: *895 client sent invalid header line, client: 151.103.129.69
+2024/11/11 00:02:00 [notice] 9049#343639: *51 client request body is too large (12582912 bytes) while reading client request body, client: 199.232.45.81
+2024/11/11 00:03:00 [notice] 2706#443923: *359 upstream sent too big header while reading response header from upstream, client: 185.200.108.153
+2024/11/11 00:04:00 [notice] 7611#353709: *371 no live upstreams while connecting to upstream, client: 205.252.197.98
+2024/11/11 00:05:00 [notice] 4258#643629: *912 client sent invalid header line, client: 35.227.233.104
+2024/11/11 00:06:00 [warn] 2724#10150: *378 upstream prematurely closed connection while reading response header from upstream, client: 172.219.10.46
+2024/11/11 00:07:00 [error] 8196#154905: *168 directory index of "/var/www/html/" is forbidden, client: 198.53.100.1
+2024/11/11 00:08:00 [emerg] 4359#530337: *718 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 152.201.39.108
+2024/11/11 00:09:00 [notice] 4731#929348: *895 SSL_do_handshake() failed, client: 146.77.50.232
+2024/11/11 00:10:00 [notice] 7419#293031: *543 directory index of "/var/www/html/" is forbidden, client: 13.107.42.14
+2024/11/11 00:11:00 [notice] 6537#913928: *68 directory index of "/var/www/html/" is forbidden, client: 104.28.1.1
+2024/11/11 00:12:00 [emerg] 9251#882682: *782 client sent invalid header line, client: 64.235.164.102
+2024/11/11 00:13:00 [warn] 9872#81087: *906 client stopped connection before send body completed, client: 142.250.187.206
+2024/11/11 00:14:00 [notice] 8326#473277: *846 limiting requests, excess: 1.234 by zone "api_limit", client: 173.246.48.12
+2024/11/11 00:15:00 [error] 7561#767268: *756 client stopped connection before send body completed, client: 54.194.18.56
+2024/11/11 00:16:00 [notice] 5888#270315: *307 SSL_do_handshake() failed, client: 52.87.251.89
+2024/11/11 00:17:00 [error] 3181#497879: *570 client stopped connection before send body completed, client: 108.156.44.23
+2024/11/11 00:18:00 [notice] 2809#971794: *757 client sent invalid header line, client: 185.199.108.153
+2024/11/11 00:19:00 [alert] 3331#72815: *68 upstream sent invalid header while reading response header from upstream, client: 35.229.233.104
+2024/11/11 00:20:00 [notice] 2017#11410: *488 SSL_do_handshake() failed, client: 35.163.75.227
+2024/11/11 00:21:00 [error] 5562#383102: *814 upstream sent invalid header while reading response header from upstream, client: 157.240.241.35
+2024/11/11 00:22:00 [warn] 6091#792845: *141 client stopped connection before send body completed, client: 20.191.173.14
+2024/11/11 00:23:00 [notice] 7550#51794: *364 client sent invalid header line, client: 199.232.45.81
+2024/11/11 00:24:00 [notice] 6846#106895: *258 upstream sent too big header while reading response header from upstream, client: 198.53.100.1
+2024/11/11 00:25:00 [notice] 2559#666169: *211 client sent invalid header line, client: 108.158.44.23
+2024/11/11 00:26:00 [notice] 5232#634456: *672 client stopped connection before send body completed, client: 172.219.10.46
+2024/11/11 00:27:00 [warn] 7980#923451: *173 permission denied while reading upstream response, client: 185.200.108.153
+2024/11/11 00:28:00 [alert] 8316#104785: *149 permission denied while reading upstream response, client: 23.186.0.253
+2024/11/11 00:29:00 [notice] 9023#432355: *947 client intended to send too large body: 1234567 bytes, client: 142.253.187.206
+2024/11/11 00:30:00 [emerg] 7991#141582: *418 client stopped connection before send body completed, client: 3.33.152.147
+2024/11/11 00:31:00 [warn] 9050#782915: *819 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 142.252.187.206
+2024/11/11 00:32:00 [notice] 5162#579305: *261 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 151.102.129.69
+2024/11/11 00:33:00 [warn] 8803#259880: *605 rewrite or internal redirection cycle while processing "/index.html", client: 104.28.1.1
+2024/11/11 00:34:00 [notice] 2278#690292: *80 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 13.32.99.150
+2024/11/11 00:35:00 [notice] 7422#349784: *858 rewrite or internal redirection cycle while processing "/index.html", client: 34.104.136.180
+2024/11/11 00:36:00 [alert] 5286#711555: *732 no live upstreams while connecting to upstream, client: 157.240.22.35
+2024/11/11 00:37:00 [notice] 1936#455412: *210 upstream sent too big header while reading response header from upstream, client: 185.200.111.153
+2024/11/11 00:38:00 [error] 6057#342856: *924 client request body is too large (12582912 bytes) while reading client request body, client: 151.101.1.195
+2024/11/11 00:39:00 [emerg] 3618#411831: *290 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 157.242.22.35
+2024/11/11 00:40:00 [notice] 6815#260748: *11 client stopped connection before send body completed, client: 52.84.251.89
+2024/11/11 00:41:00 [notice] 6726#972482: *993 directory index of "/var/www/html/" is forbidden, client: 104.18.123.96
+2024/11/11 00:42:00 [notice] 8294#640639: *885 directory index of "/var/www/html/" is forbidden, client: 185.201.111.153
+2024/11/11 00:43:00 [notice] 3137#406191: *423 worker_connections are not enough while connecting to upstream, client: 185.88.181.4
+2024/11/11 00:44:00 [notice] 6568#207618: *510 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 23.26.62.155
+2024/11/11 00:45:00 [notice] 8423#534445: *890 limiting requests, excess: 1.234 by zone "api_limit", client: 13.35.99.150
+2024/11/11 00:46:00 [notice] 9596#795537: *642 SSL_do_handshake() failed, client: 104.21.15.224
+2024/11/11 00:47:00 [notice] 3442#936418: *264 client request body is too large (12582912 bytes) while reading client request body, client: 185.90.181.4
+2024/11/11 00:48:00 [notice] 8799#444856: *914 permission denied while reading upstream response, client: 146.76.50.232
+2024/11/11 00:49:00 [warn] 3653#542608: *49 directory index of "/var/www/html/" is forbidden, client: 35.227.233.104
+2024/11/11 00:50:00 [notice] 1442#368937: *535 SSL_do_handshake() failed, client: 34.105.136.180
+2024/11/11 00:51:00 [notice] 1351#90164: *576 client stopped connection before send body completed, client: 140.84.121.4
+2024/11/11 00:52:00 [notice] 2127#178842: *229 no live upstreams while connecting to upstream, client: 44.229.178.9
+2024/11/11 00:53:00 [notice] 8798#657412: *503 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 151.102.1.195
+2024/11/11 00:54:00 [notice] 5058#51216: *480 upstream sent invalid header while reading response header from upstream, client: 35.227.233.104
+2024/11/11 00:55:00 [notice] 3854#528533: *161 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 99.86.234.156
+2024/11/11 00:56:00 [crit] 2871#709866: *53 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 13.107.42.14
+2024/11/11 00:57:00 [notice] 6432#519572: *352 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 34.104.136.180
+2024/11/11 00:58:00 [error] 8182#138321: *826 permission denied while reading upstream response, client: 152.201.39.108
+2024/11/11 00:59:00 [alert] 6637#100057: *783 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 34.105.136.180
+2024/11/11 01:00:00 [notice] 1025#872205: *165 client sent invalid header line, client: 216.60.194.174
+2024/11/11 01:01:00 [notice] 7377#700645: *260 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 23.186.0.253
+2024/11/11 01:02:00 [crit] 6192#418642: *882 client request body is too large (12582912 bytes) while reading client request body, client: 13.32.99.150
+2024/11/11 01:03:00 [notice] 5530#847952: *864 client stopped connection before send body completed, client: 13.32.99.150
+2024/11/11 01:04:00 [notice] 4053#609630: *10 worker_connections are not enough while connecting to upstream, client: 199.233.45.81
+2024/11/11 01:05:00 [notice] 7707#54906: *762 client stopped connection before send body completed, client: 152.201.39.108
+2024/11/11 01:06:00 [notice] 3828#185138: *660 worker process exited on signal 11, client: 20.191.173.14
+2024/11/11 01:07:00 [alert] 9259#720151: *158 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 23.186.0.253
+2024/11/11 01:08:00 [alert] 1644#446672: *674 worker process exited on signal 11, client: 142.251.187.206
+2024/11/11 01:09:00 [emerg] 8020#913562: *243 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 52.41.144.31
+2024/11/11 01:10:00 [notice] 9246#236132: *252 client sent invalid header line, client: 13.36.99.150
+2024/11/11 01:11:00 [notice] 1351#590595: *428 directory index of "/var/www/html/" is forbidden, client: 216.58.194.174
+2024/11/11 01:12:00 [notice] 6935#23402: *314 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 23.24.62.155
+2024/11/11 01:13:00 [notice] 8342#6006: *134 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 104.28.1.1
+2024/11/11 01:14:00 [notice] 9359#801662: *815 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 23.26.62.155
+2024/11/11 01:15:00 [notice] 8998#769669: *998 upstream sent too big header while reading response header from upstream, client: 18.246.123.89
+2024/11/11 01:16:00 [error] 9384#592062: *519 client stopped connection before send body completed, client: 157.240.241.35
+2024/11/11 01:17:00 [notice] 6360#178382: *583 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 140.84.121.4
+2024/11/11 01:18:00 [notice] 5012#553269: *207 rewrite or internal redirection cycle while processing "/index.html", client: 140.83.121.4
+2024/11/11 01:19:00 [notice] 7131#62493: *542 worker process exited on signal 11, client: 146.76.50.232
+2024/11/11 01:20:00 [notice] 6606#50469: *509 SSL_do_handshake() failed, client: 142.250.187.206
+2024/11/11 01:21:00 [notice] 7453#927228: *847 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 35.227.233.104
+2024/11/11 01:22:00 [warn] 3580#822026: *947 upstream prematurely closed connection while reading response header from upstream, client: 185.201.108.153
+2024/11/11 01:23:00 [emerg] 7080#622237: *834 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 142.250.187.206
+2024/11/11 01:24:00 [notice] 2765#836515: *280 upstream sent invalid header while reading response header from upstream, client: 13.36.99.150
+2024/11/11 01:25:00 [crit] 2817#134537: *117 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 104.29.1.1
+2024/11/11 01:26:00 [error] 4778#675227: *358 directory index of "/var/www/html/" is forbidden, client: 13.107.42.14
+2024/11/11 01:27:00 [notice] 3642#626171: *563 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 204.93.177.45
+2024/11/11 01:28:00 [notice] 2217#284548: *856 SSL_do_handshake() failed, client: 162.161.135.42
+2024/11/11 01:29:00 [notice] 5216#933373: *294 SSL_do_handshake() failed, client: 13.107.42.14
+2024/11/11 01:30:00 [warn] 6910#210100: *376 client intended to send too large body: 1234567 bytes, client: 162.160.135.42
+2024/11/11 01:31:00 [notice] 6428#958631: *14 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 20.191.173.14
+2024/11/11 01:32:00 [notice] 7641#570508: *844 client intended to send too large body: 1234567 bytes, client: 34.103.136.180
+2024/11/11 01:33:00 [notice] 7392#496185: *802 SSL_do_handshake() failed, client: 157.240.241.35
+2024/11/11 01:34:00 [notice] 1038#705421: *46 upstream sent too big header while reading response header from upstream, client: 13.107.42.14
+2024/11/11 01:35:00 [emerg] 7672#763070: *360 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 44.228.178.9
+2024/11/11 01:36:00 [notice] 8303#377469: *282 limiting requests, excess: 1.234 by zone "api_limit", client: 157.242.22.35
+2024/11/11 01:37:00 [notice] 9779#869916: *150 client stopped connection before send body completed, client: 185.201.111.153
+2024/11/11 01:38:00 [notice] 1763#460641: *663 rewrite or internal redirection cycle while processing "/index.html", client: 3.33.152.147
+2024/11/11 01:39:00 [warn] 6890#244176: *538 worker process exited on signal 11, client: 108.157.44.23
+2024/11/11 01:40:00 [notice] 3178#243285: *932 client stopped connection before send body completed, client: 104.30.1.1
+2024/11/11 01:41:00 [notice] 4194#691756: *108 client sent invalid header line, client: 104.17.123.96
+2024/11/11 01:42:00 [emerg] 1269#804296: *319 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 44.230.178.9
+2024/11/11 01:43:00 [notice] 1759#324139: *460 rewrite or internal redirection cycle while processing "/index.html", client: 185.199.111.153
+2024/11/11 01:44:00 [crit] 4026#188261: *432 SSL_do_handshake() failed, client: 20.189.173.14
+2024/11/11 01:45:00 [notice] 2573#467039: *512 worker process exited on signal 11, client: 23.24.62.155
+2024/11/11 01:46:00 [notice] 8019#219742: *64 client stopped connection before send body completed, client: 199.232.45.81
+2024/11/11 01:47:00 [error] 4835#887146: *555 upstream sent too big header while reading response header from upstream, client: 172.217.10.46
+2024/11/11 01:48:00 [alert] 3359#287877: *422 no live upstreams while connecting to upstream, client: 3.34.152.147
+2024/11/11 01:49:00 [notice] 1222#601681: *659 SSL_do_handshake() failed, client: 13.37.99.150
+2024/11/11 01:50:00 [notice] 2279#504285: *250 client stopped connection before send body completed, client: 216.60.194.174
+2024/11/11 01:51:00 [error] 3586#276468: *288 client request body is too large (12582912 bytes) while reading client request body, client: 104.244.42.193
+2024/11/11 01:52:00 [alert] 7014#519943: *853 SSL_do_handshake() failed, client: 13.107.42.14
+2024/11/11 01:53:00 [notice] 1310#41245: *254 upstream sent too big header while reading response header from upstream, client: 185.90.181.4
+2024/11/11 01:54:00 [warn] 1716#44307: *186 upstream sent too big header while reading response header from upstream, client: 52.87.251.89
+2024/11/11 01:55:00 [error] 7811#477110: *799 worker_connections are not enough while connecting to upstream, client: 205.253.197.98
+2024/11/11 01:56:00 [notice] 1351#134980: *441 upstream sent invalid header while reading response header from upstream, client: 34.121.53.81
+2024/11/11 01:57:00 [notice] 4679#642869: *528 client request body is too large (12582912 bytes) while reading client request body, client: 173.246.48.12
+2024/11/11 01:58:00 [notice] 5411#410646: *750 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 44.229.178.9
+2024/11/11 01:59:00 [notice] 6604#979205: *590 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 35.227.233.104
+2024/11/11 02:00:00 [notice] 8008#816799: *391 client sent invalid header line, client: 216.60.194.174
+2024/11/11 02:01:00 [emerg] 4189#541458: *273 client stopped connection before send body completed, client: 52.39.144.31
+2024/11/11 02:02:00 [notice] 2035#458643: *981 permission denied while reading upstream response, client: 157.242.22.35
+2024/11/11 02:03:00 [notice] 3614#695073: *244 permission denied while reading upstream response, client: 35.163.75.227
+2024/11/11 02:04:00 [crit] 4114#245144: *136 SSL_do_handshake() failed, client: 205.252.197.98
+2024/11/11 02:05:00 [notice] 7755#532165: *896 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 64.234.164.102
+2024/11/11 02:06:00 [notice] 8338#876587: *581 upstream sent too big header while reading response header from upstream, client: 23.24.62.155
+2024/11/11 02:07:00 [error] 2434#708072: *619 client stopped connection before send body completed, client: 172.217.10.46
+2024/11/11 02:08:00 [notice] 5206#572052: *359 client stopped connection before send body completed, client: 13.32.99.150
+2024/11/11 02:09:00 [notice] 2938#683439: *491 directory index of "/var/www/html/" is forbidden, client: 172.218.10.46
+2024/11/11 02:10:00 [notice] 9148#976250: *297 directory index of "/var/www/html/" is forbidden, client: 64.233.164.102
+2024/11/11 02:11:00 [notice] 9760#276180: *934 worker process exited on signal 11, client: 35.229.233.104
+2024/11/11 02:12:00 [notice] 3765#250308: *672 upstream sent invalid header while reading response header from upstream, client: 104.244.42.193
+2024/11/11 02:13:00 [notice] 3918#78227: *415 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 192.1.2.1
+2024/11/11 02:14:00 [alert] 9813#470852: *312 permission denied while reading upstream response, client: 104.245.42.193
+2024/11/11 02:15:00 [notice] 3086#975889: *293 limiting requests, excess: 1.234 by zone "api_limit", client: 54.193.18.56
+2024/11/11 02:16:00 [notice] 5242#308706: *76 no live upstreams while connecting to upstream, client: 152.201.39.108
+2024/11/11 02:17:00 [notice] 5419#362669: *882 SSL_do_handshake() failed, client: 151.101.129.69
+2024/11/11 02:18:00 [notice] 1535#452657: *208 client stopped connection before send body completed, client: 172.218.10.46
+2024/11/11 02:19:00 [notice] 5513#87989: *654 SSL_do_handshake() failed, client: 99.84.234.156
+2024/11/11 02:20:00 [warn] 4623#221389: *129 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 34.103.136.180
+2024/11/11 02:21:00 [error] 8079#611610: *17 upstream sent invalid header while reading response header from upstream, client: 54.192.18.56
+2024/11/11 02:22:00 [notice] 4339#507979: *359 rewrite or internal redirection cycle while processing "/index.html", client: 13.35.99.150
+2024/11/11 02:23:00 [error] 6323#584464: *56 upstream prematurely closed connection while reading response header from upstream, client: 54.194.18.56
+2024/11/11 02:24:00 [notice] 4289#203832: *362 client request body is too large (12582912 bytes) while reading client request body, client: 13.37.99.150
+2024/11/11 02:25:00 [notice] 8867#281051: *990 SSL_do_handshake() failed, client: 108.156.44.23
+2024/11/11 02:26:00 [emerg] 8677#822385: *980 directory index of "/var/www/html/" is forbidden, client: 205.251.197.98
+2024/11/11 02:27:00 [warn] 4819#352868: *986 SSL_do_handshake() failed, client: 44.227.178.9
+2024/11/11 02:28:00 [notice] 3428#860992: *973 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 64.235.164.102
+2024/11/11 02:29:00 [notice] 8389#900953: *771 directory index of "/var/www/html/" is forbidden, client: 35.161.75.227
+2024/11/11 02:30:00 [notice] 5050#879193: *272 client request body is too large (12582912 bytes) while reading client request body, client: 18.244.123.89
+2024/11/11 02:31:00 [error] 7558#438272: *55 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 3.35.152.147
+2024/11/11 02:32:00 [notice] 5372#912117: *9 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 173.247.48.12
+2024/11/11 02:33:00 [alert] 1346#333167: *136 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 185.201.108.153
+2024/11/11 02:34:00 [notice] 5354#164375: *684 upstream sent too big header while reading response header from upstream, client: 198.52.100.1
+2024/11/11 02:35:00 [alert] 6453#988003: *63 SSL_do_handshake() failed, client: 34.121.53.81
+2024/11/11 02:36:00 [emerg] 4021#762326: *848 no live upstreams while connecting to upstream, client: 13.32.99.150
+2024/11/11 02:37:00 [notice] 7409#157059: *716 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 152.201.39.108
+2024/11/11 02:38:00 [notice] 4463#712087: *319 client sent invalid header line, client: 54.193.18.56
+2024/11/11 02:39:00 [notice] 8936#90109: *744 no live upstreams while connecting to upstream, client: 142.250.187.206
+2024/11/11 02:40:00 [crit] 8470#711556: *952 client request body is too large (12582912 bytes) while reading client request body, client: 146.75.50.232
+2024/11/11 02:41:00 [warn] 5253#221936: *529 SSL_do_handshake() failed, client: 199.234.45.81
+2024/11/11 02:42:00 [emerg] 7406#490237: *986 no live upstreams while connecting to upstream, client: 152.199.39.108
+2024/11/11 02:43:00 [warn] 5464#356453: *227 client stopped connection before send body completed, client: 34.105.136.180
+2024/11/11 02:44:00 [notice] 8457#418596: *398 limiting requests, excess: 1.234 by zone "api_limit", client: 162.160.135.42
+2024/11/11 02:45:00 [notice] 2043#197150: *164 client request body is too large (12582912 bytes) while reading client request body, client: 185.201.108.153
+2024/11/11 02:46:00 [warn] 2499#645597: *947 client stopped connection before send body completed, client: 44.230.178.9
+2024/11/11 02:47:00 [alert] 4831#567372: *629 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 162.160.135.42
+2024/11/11 02:48:00 [notice] 4173#619853: *78 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 204.93.177.45
+2024/11/11 02:49:00 [notice] 9362#281437: *161 client stopped connection before send body completed, client: 204.95.177.45
+2024/11/11 02:50:00 [emerg] 6856#315837: *689 client intended to send too large body: 1234567 bytes, client: 54.192.18.56
+2024/11/11 02:51:00 [notice] 7902#902513: *668 SSL_do_handshake() failed, client: 185.88.181.4
+2024/11/11 02:52:00 [warn] 1267#762165: *354 client sent invalid header line, client: 104.21.15.224
+2024/11/11 02:53:00 [error] 3310#33419: *832 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 157.240.241.35
+2024/11/11 02:54:00 [notice] 2900#859096: *323 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 185.199.108.153
+2024/11/11 02:55:00 [alert] 2909#853234: *44 client request body is too large (12582912 bytes) while reading client request body, client: 192.0.2.178
+2024/11/11 02:56:00 [warn] 8627#7921: *990 upstream sent too big header while reading response header from upstream, client: 23.186.0.253
+2024/11/11 02:57:00 [notice] 1644#766827: *199 permission denied while reading upstream response, client: 34.121.53.81
+2024/11/11 02:58:00 [notice] 7235#642850: *141 no live upstreams while connecting to upstream, client: 152.200.39.108
+2024/11/11 02:59:00 [error] 3613#876931: *837 permission denied while reading upstream response, client: 35.189.224.25
+2024/11/11 03:00:00 [alert] 7320#533902: *387 directory index of "/var/www/html/" is forbidden, client: 204.94.177.45
+2024/11/11 03:01:00 [notice] 7528#106315: *944 client stopped connection before send body completed, client: 44.229.178.9
+2024/11/11 03:02:00 [notice] 2861#419145: *429 worker_connections are not enough while connecting to upstream, client: 205.253.197.98
+2024/11/11 03:03:00 [crit] 8668#781318: *377 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 34.104.136.180
+2024/11/11 03:04:00 [notice] 8048#890255: *381 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 199.232.45.81
+2024/11/11 03:05:00 [notice] 7764#803877: *493 client sent invalid header line, client: 185.201.108.153
+2024/11/11 03:06:00 [notice] 3458#214364: *755 SSL_do_handshake() failed, client: 108.158.44.23
+2024/11/11 03:07:00 [notice] 9249#878689: *609 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 13.107.42.14
+2024/11/11 03:08:00 [error] 2586#898123: *389 client stopped connection before send body completed, client: 40.126.35.19
+2024/11/11 03:09:00 [notice] 4730#40408: *616 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 34.103.136.180
+2024/11/11 03:10:00 [alert] 3481#787844: *6 directory index of "/var/www/html/" is forbidden, client: 185.201.108.153
+2024/11/11 03:11:00 [alert] 8972#349598: *881 client stopped connection before send body completed, client: 13.107.42.14
+2024/11/11 03:12:00 [notice] 7764#875613: *658 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 173.245.48.12
+2024/11/11 03:13:00 [notice] 3072#741728: *615 rewrite or internal redirection cycle while processing "/index.html", client: 104.29.1.1
+2024/11/11 03:14:00 [notice] 1073#708197: *223 upstream prematurely closed connection while reading response header from upstream, client: 44.228.178.9
+2024/11/11 03:15:00 [notice] 9457#665393: *737 client stopped connection before send body completed, client: 13.36.99.150
+2024/11/11 03:16:00 [alert] 4664#626374: *864 upstream prematurely closed connection while reading response header from upstream, client: 199.234.45.81
+2024/11/11 03:17:00 [notice] 9973#721251: *58 limiting requests, excess: 1.234 by zone "api_limit", client: 216.58.194.174
+2024/11/11 03:18:00 [notice] 8812#579974: *99 client stopped connection before send body completed, client: 23.45.67.89
+2024/11/11 03:19:00 [notice] 2813#338391: *231 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.1.2.1
+2024/11/11 03:20:00 [alert] 7164#22903: *785 client stopped connection before send body completed, client: 23.45.67.89
+2024/11/11 03:21:00 [warn] 4884#932729: *370 rewrite or internal redirection cycle while processing "/index.html", client: 34.120.53.81
+2024/11/11 03:22:00 [notice] 4341#779884: *413 client stopped connection before send body completed, client: 205.252.197.98
+2024/11/11 03:23:00 [notice] 4700#111285: *525 upstream sent too big header while reading response header from upstream, client: 198.53.100.1
+2024/11/11 03:24:00 [notice] 8360#405067: *796 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 18.245.123.89
+2024/11/11 03:25:00 [warn] 3763#269481: *107 client intended to send too large body: 1234567 bytes, client: 205.251.197.98
+2024/11/11 03:26:00 [notice] 3439#192616: *189 directory index of "/var/www/html/" is forbidden, client: 205.251.197.98
+2024/11/11 03:27:00 [notice] 1531#966317: *392 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 204.95.177.45
+2024/11/11 03:28:00 [warn] 1269#602240: *224 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 64.234.164.102
+2024/11/11 03:29:00 [notice] 2033#862129: *556 client stopped connection before send body completed, client: 162.161.135.42
+2024/11/11 03:30:00 [notice] 9485#840425: *634 SSL_do_handshake() failed, client: 172.217.169.78
+2024/11/11 03:31:00 [emerg] 7054#600419: *176 limiting requests, excess: 1.234 by zone "api_limit", client: 203.2.113.1
+2024/11/11 03:32:00 [notice] 8099#899517: *507 SSL_do_handshake() failed, client: 173.247.48.12
+2024/11/11 03:33:00 [notice] 2953#582804: *879 client stopped connection before send body completed, client: 104.29.1.1
+2024/11/11 03:34:00 [notice] 7768#393126: *367 client sent invalid header line, client: 40.128.35.19
+2024/11/11 03:35:00 [error] 2807#346883: *406 client stopped connection before send body completed, client: 157.241.22.35
+2024/11/11 03:36:00 [crit] 1069#330291: *509 client stopped connection before send body completed, client: 151.101.65.69
+2024/11/11 03:37:00 [notice] 7471#872768: *784 worker_connections are not enough while connecting to upstream, client: 151.101.65.69
+2024/11/11 03:38:00 [notice] 3507#909965: *31 client stopped connection before send body completed, client: 162.159.135.42
+2024/11/11 03:39:00 [notice] 6392#670673: *939 worker_connections are not enough while connecting to upstream, client: 20.191.173.14
+2024/11/11 03:40:00 [notice] 6571#928320: *833 rewrite or internal redirection cycle while processing "/index.html", client: 20.189.173.14
+2024/11/11 03:41:00 [notice] 4240#744538: *760 directory index of "/var/www/html/" is forbidden, client: 54.192.18.56
+2024/11/11 03:42:00 [notice] 2402#655921: *826 SSL_do_handshake() failed, client: 205.253.197.98
+2024/11/11 03:43:00 [notice] 2225#422151: *898 worker_connections are not enough while connecting to upstream, client: 104.20.32.141
+2024/11/11 03:44:00 [notice] 8261#129417: *379 upstream sent too big header while reading response header from upstream, client: 162.161.135.42
+2024/11/11 03:45:00 [notice] 7729#740781: *620 client intended to send too large body: 1234567 bytes, client: 151.101.65.69
+2024/11/11 03:46:00 [crit] 9384#542954: *99 client stopped connection before send body completed, client: 152.200.39.108
+2024/11/11 03:47:00 [notice] 4308#546729: *331 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 23.186.0.253
+2024/11/11 03:48:00 [alert] 8740#949652: *195 client request body is too large (12582912 bytes) while reading client request body, client: 142.252.187.206
+2024/11/11 03:49:00 [alert] 7431#840055: *197 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 52.85.251.89
+2024/11/11 03:50:00 [notice] 9312#799820: *675 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 157.241.22.35
+2024/11/11 03:51:00 [emerg] 6238#964572: *597 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 35.189.224.25
+2024/11/11 03:52:00 [notice] 3760#429001: *245 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 216.58.194.174
+2024/11/11 03:53:00 [emerg] 6727#523471: *57 no live upstreams while connecting to upstream, client: 13.35.99.150
+2024/11/11 03:54:00 [notice] 7728#606617: *8 rewrite or internal redirection cycle while processing "/index.html", client: 192.1.2.1
+2024/11/11 03:55:00 [notice] 7250#453378: *213 client sent invalid header line, client: 23.47.67.89
+2024/11/11 03:56:00 [notice] 6540#694023: *158 SSL_do_handshake() failed, client: 104.245.42.193
+2024/11/11 03:57:00 [warn] 6307#948732: *387 limiting requests, excess: 1.234 by zone "api_limit", client: 3.35.152.147
+2024/11/11 03:58:00 [emerg] 2711#239497: *187 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 35.228.233.104
+2024/11/11 03:59:00 [notice] 3763#783829: *14 SSL_do_handshake() failed, client: 104.20.32.141
+2024/11/11 04:00:00 [warn] 3594#737343: *808 SSL_do_handshake() failed, client: 52.85.251.89
+2024/11/11 04:01:00 [notice] 6513#635504: *54 limiting requests, excess: 1.234 by zone "api_limit", client: 173.246.48.12
+2024/11/11 04:02:00 [notice] 6275#855848: *762 directory index of "/var/www/html/" is forbidden, client: 185.90.181.4
+2024/11/11 04:03:00 [warn] 2042#687619: *719 client stopped connection before send body completed, client: 140.82.121.4
+2024/11/11 04:04:00 [notice] 9260#363627: *765 limiting requests, excess: 1.234 by zone "api_limit", client: 192.0.2.178
+2024/11/11 04:05:00 [notice] 2234#947887: *150 client request body is too large (12582912 bytes) while reading client request body, client: 13.109.42.14
+2024/11/11 04:06:00 [notice] 4988#367709: *863 client stopped connection before send body completed, client: 198.51.100.1
+2024/11/11 04:07:00 [notice] 7648#562966: *814 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 104.16.123.96
+2024/11/11 04:08:00 [error] 7047#166557: *359 worker process exited on signal 11, client: 3.33.152.147
+2024/11/11 04:09:00 [notice] 5133#639904: *309 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 198.52.100.1
+2024/11/11 04:10:00 [emerg] 3451#128101: *174 SSL_do_handshake() failed, client: 34.105.136.180
+2024/11/11 04:11:00 [crit] 2720#787449: *14 directory index of "/var/www/html/" is forbidden, client: 13.32.99.150
+2024/11/11 04:12:00 [notice] 8954#952957: *222 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 108.156.44.23
+2024/11/11 04:13:00 [emerg] 1548#166768: *572 client stopped connection before send body completed, client: 172.217.169.78
+2024/11/11 04:14:00 [notice] 1439#743996: *605 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 99.84.234.156
+2024/11/11 04:15:00 [notice] 9502#576754: *234 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 162.160.135.42
+2024/11/11 04:16:00 [error] 8759#876843: *854 client stopped connection before send body completed, client: 35.186.224.25
+2024/11/11 04:17:00 [alert] 1261#836831: *599 client stopped connection before send body completed, client: 146.76.50.232
+2024/11/11 04:18:00 [notice] 1139#130635: *114 client stopped connection before send body completed, client: 192.0.2.178
+2024/11/11 04:19:00 [notice] 5919#352784: *954 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 99.86.234.156
+2024/11/11 04:20:00 [notice] 2842#945848: *771 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 173.245.48.12
+2024/11/11 04:21:00 [notice] 8684#36309: *511 client sent invalid header line, client: 13.108.42.14
+2024/11/11 04:22:00 [notice] 6540#22887: *929 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 173.247.48.12
+2024/11/11 04:23:00 [warn] 6814#935987: *168 client sent invalid header line, client: 142.253.187.206
+2024/11/11 04:24:00 [notice] 1052#23195: *74 client request body is too large (12582912 bytes) while reading client request body, client: 198.51.100.1
+2024/11/11 04:25:00 [notice] 7389#164993: *162 no live upstreams while connecting to upstream, client: 203.0.113.1
+2024/11/11 04:26:00 [notice] 2025#344654: *842 upstream prematurely closed connection while reading response header from upstream, client: 34.102.136.180
+2024/11/11 04:27:00 [notice] 3610#75960: *215 client stopped connection before send body completed, client: 52.86.251.89
+2024/11/11 04:28:00 [emerg] 6602#143797: *504 client sent invalid header line, client: 198.52.100.1
+2024/11/11 04:29:00 [emerg] 9954#646400: *450 client stopped connection before send body completed, client: 35.162.75.227
+2024/11/11 04:30:00 [warn] 3427#832796: *384 worker process exited on signal 11, client: 185.199.108.153
+2024/11/11 04:31:00 [notice] 4056#163589: *718 client request body is too large (12582912 bytes) while reading client request body, client: 104.30.1.1
+2024/11/11 04:32:00 [notice] 4899#563447: *595 worker_connections are not enough while connecting to upstream, client: 192.1.2.1
+2024/11/11 04:33:00 [warn] 2467#216445: *560 client stopped connection before send body completed, client: 104.246.42.193
+2024/11/11 04:34:00 [notice] 5710#650042: *532 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 52.86.251.89
+2024/11/11 04:35:00 [notice] 9719#834813: *855 upstream prematurely closed connection while reading response header from upstream, client: 13.32.99.150
+2024/11/11 04:36:00 [notice] 5406#836189: *291 rewrite or internal redirection cycle while processing "/index.html", client: 44.229.178.9
+2024/11/11 04:37:00 [notice] 7172#4947: *446 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 18.245.123.89
+2024/11/11 04:38:00 [notice] 5664#604519: *265 client stopped connection before send body completed, client: 52.39.144.31
+2024/11/11 04:39:00 [error] 5240#496735: *533 client sent invalid header line, client: 44.230.178.9
+2024/11/11 04:40:00 [notice] 4204#219071: *327 client intended to send too large body: 1234567 bytes, client: 13.35.99.150
+2024/11/11 04:41:00 [notice] 3845#165596: *180 client sent invalid header line, client: 157.240.22.35
+2024/11/11 04:42:00 [alert] 7419#437509: *632 SSL_do_handshake() failed, client: 13.109.42.14
+2024/11/11 04:43:00 [notice] 7362#39660: *966 client stopped connection before send body completed, client: 104.20.32.141
+2024/11/11 04:44:00 [warn] 8607#98516: *835 client request body is too large (12582912 bytes) while reading client request body, client: 52.84.251.89
+2024/11/11 04:45:00 [notice] 3976#818497: *473 client stopped connection before send body completed, client: 140.84.121.4
+2024/11/11 04:46:00 [notice] 2653#302045: *112 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.1.2.1
+2024/11/11 04:47:00 [notice] 6758#485466: *32 worker_connections are not enough while connecting to upstream, client: 152.200.39.108
+2024/11/11 04:48:00 [notice] 5973#597468: *678 SSL_do_handshake() failed, client: 64.234.164.102
+2024/11/11 04:49:00 [notice] 3906#679294: *158 client request body is too large (12582912 bytes) while reading client request body, client: 64.235.164.102
+2024/11/11 04:50:00 [notice] 2502#728569: *586 client request body is too large (12582912 bytes) while reading client request body, client: 173.245.48.12
+2024/11/11 04:51:00 [error] 1799#268342: *519 worker_connections are not enough while connecting to upstream, client: 13.109.42.14
+2024/11/11 04:52:00 [notice] 6099#423619: *878 directory index of "/var/www/html/" is forbidden, client: 35.227.233.104
+2024/11/11 04:53:00 [warn] 9674#911260: *500 client sent invalid header line, client: 99.85.234.156
+2024/11/11 04:54:00 [notice] 1452#957486: *146 client stopped connection before send body completed, client: 104.246.42.193
+2024/11/11 04:55:00 [notice] 1666#202563: *259 client intended to send too large body: 1234567 bytes, client: 35.189.224.25
+2024/11/11 04:56:00 [notice] 1629#204960: *531 directory index of "/var/www/html/" is forbidden, client: 34.104.136.180
+2024/11/11 04:57:00 [notice] 2335#176917: *651 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 23.186.0.253
+2024/11/11 04:58:00 [crit] 1826#494549: *395 SSL_do_handshake() failed, client: 157.241.22.35
+2024/11/11 04:59:00 [emerg] 7998#769619: *622 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 99.86.234.156
+2024/11/11 05:00:00 [emerg] 9920#425503: *933 SSL_do_handshake() failed, client: 52.85.251.89
+2024/11/11 05:01:00 [notice] 7339#176237: *113 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 54.194.18.56
+2024/11/11 05:02:00 [emerg] 4604#401858: *448 SSL_do_handshake() failed, client: 104.245.42.193
+2024/11/11 05:03:00 [alert] 9592#302078: *306 limiting requests, excess: 1.234 by zone "api_limit", client: 152.201.39.108
+2024/11/11 05:04:00 [warn] 4925#174682: *620 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 162.161.135.42
+2024/11/11 05:05:00 [notice] 3563#533562: *231 rewrite or internal redirection cycle while processing "/index.html", client: 20.191.173.14
+2024/11/11 05:06:00 [notice] 9947#933658: *308 client request body is too large (12582912 bytes) while reading client request body, client: 151.102.129.69
+2024/11/11 05:07:00 [warn] 6226#515244: *497 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 13.35.99.150
+2024/11/11 05:08:00 [notice] 8517#881527: *349 client sent invalid header line, client: 199.233.45.81
+2024/11/11 05:09:00 [warn] 9727#110850: *136 upstream sent invalid header while reading response header from upstream, client: 162.160.135.42
+2024/11/11 05:10:00 [crit] 8775#163184: *699 client stopped connection before send body completed, client: 185.88.181.4
+2024/11/11 05:11:00 [notice] 9676#341196: *76 client stopped connection before send body completed, client: 104.245.42.193
+2024/11/11 05:12:00 [notice] 3370#281878: *457 SSL_do_handshake() failed, client: 146.76.50.232
+2024/11/11 05:13:00 [notice] 2434#131879: *749 client request body is too large (12582912 bytes) while reading client request body, client: 3.33.152.147
+2024/11/11 05:14:00 [emerg] 8896#265289: *363 client stopped connection before send body completed, client: 35.162.75.227
+2024/11/11 05:15:00 [warn] 9225#403722: *574 directory index of "/var/www/html/" is forbidden, client: 104.20.32.141
+2024/11/11 05:16:00 [warn] 3348#610525: *295 client sent invalid header line, client: 13.35.99.150
+2024/11/11 05:17:00 [notice] 6250#982760: *42 upstream prematurely closed connection while reading response header from upstream, client: 192.2.2.1
+2024/11/11 05:18:00 [notice] 4513#956433: *652 rewrite or internal redirection cycle while processing "/index.html", client: 192.0.2.178
+2024/11/11 05:19:00 [error] 2052#965292: *978 upstream sent too big header while reading response header from upstream, client: 34.103.136.180
+2024/11/11 05:20:00 [notice] 4069#402040: *603 upstream sent invalid header while reading response header from upstream, client: 3.34.152.147
+2024/11/11 05:21:00 [notice] 5153#949334: *53 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 204.94.177.45
+2024/11/11 05:22:00 [warn] 1929#660428: *279 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 185.199.108.153
+2024/11/11 05:23:00 [notice] 3396#760707: *505 directory index of "/var/www/html/" is forbidden, client: 13.108.42.14
+2024/11/11 05:24:00 [emerg] 5464#510931: *40 SSL_do_handshake() failed, client: 108.156.44.23
+2024/11/11 05:25:00 [notice] 8610#962098: *518 rewrite or internal redirection cycle while processing "/index.html", client: 52.40.144.31
+2024/11/11 05:26:00 [notice] 3766#223769: *305 SSL_do_handshake() failed, client: 104.19.32.141
+2024/11/11 05:27:00 [warn] 2116#343758: *888 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 13.37.99.150
+2024/11/11 05:28:00 [warn] 8119#541104: *819 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 18.244.123.89
+2024/11/11 05:29:00 [notice] 8197#349273: *910 client request body is too large (12582912 bytes) while reading client request body, client: 104.17.123.96
+2024/11/11 05:30:00 [notice] 2760#106050: *27 client stopped connection before send body completed, client: 64.234.164.102
+2024/11/11 05:31:00 [warn] 4566#688283: *892 client sent invalid header line, client: 146.77.50.232
+2024/11/11 05:32:00 [alert] 2274#727348: *137 worker_connections are not enough while connecting to upstream, client: 185.89.181.4
+2024/11/11 05:33:00 [notice] 6198#292310: *263 upstream sent invalid header while reading response header from upstream, client: 34.120.53.81
+2024/11/11 05:34:00 [emerg] 8513#961842: *244 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 34.121.53.81
+2024/11/11 05:35:00 [notice] 7707#904838: *391 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 108.158.44.23
+2024/11/11 05:36:00 [notice] 7745#811109: *902 SSL_do_handshake() failed, client: 185.88.181.4
+2024/11/11 05:37:00 [notice] 6262#809971: *563 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 18.245.123.89
+2024/11/11 05:38:00 [notice] 2535#927788: *379 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 34.104.136.180
+2024/11/11 05:39:00 [error] 3906#597574: *768 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 54.193.18.56
+2024/11/11 05:40:00 [alert] 4812#945418: *579 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 18.246.123.89
+2024/11/11 05:41:00 [alert] 1406#43462: *492 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 34.120.53.81
+2024/11/11 05:42:00 [notice] 3117#521238: *226 worker_connections are not enough while connecting to upstream, client: 35.163.75.227
+2024/11/11 05:43:00 [warn] 7361#351259: *716 client stopped connection before send body completed, client: 52.41.144.31
+2024/11/11 05:44:00 [emerg] 8076#631393: *540 upstream prematurely closed connection while reading response header from upstream, client: 140.83.121.4
+2024/11/11 05:45:00 [alert] 3052#73666: *875 directory index of "/var/www/html/" is forbidden, client: 54.193.18.56
+2024/11/11 05:46:00 [notice] 7124#250200: *135 upstream sent invalid header while reading response header from upstream, client: 34.121.53.81
+2024/11/11 05:47:00 [warn] 6013#795964: *893 permission denied while reading upstream response, client: 108.157.44.23
+2024/11/11 05:48:00 [notice] 5116#38627: *601 SSL_do_handshake() failed, client: 173.246.48.12
+2024/11/11 05:49:00 [notice] 4349#442055: *158 client stopped connection before send body completed, client: 40.127.35.19
+2024/11/11 05:50:00 [alert] 2946#664794: *283 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 142.250.187.206
+2024/11/11 05:51:00 [notice] 8625#588489: *605 client intended to send too large body: 1234567 bytes, client: 142.251.187.206
+2024/11/11 05:52:00 [notice] 4025#271580: *385 client request body is too large (12582912 bytes) while reading client request body, client: 198.51.100.1
+2024/11/11 05:53:00 [notice] 1666#662691: *324 no live upstreams while connecting to upstream, client: 99.84.234.156
+2024/11/11 05:54:00 [notice] 6276#417792: *413 client sent invalid header line, client: 13.37.99.150
+2024/11/11 05:55:00 [notice] 1157#988608: *440 limiting requests, excess: 1.234 by zone "api_limit", client: 20.190.173.14
+2024/11/11 05:56:00 [notice] 4936#525961: *820 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 198.52.100.1
+2024/11/11 05:57:00 [notice] 3630#577805: *355 upstream sent too big header while reading response header from upstream, client: 205.253.197.98
+2024/11/11 05:58:00 [notice] 5959#289465: *704 no live upstreams while connecting to upstream, client: 185.200.111.153
+2024/11/11 05:59:00 [notice] 8938#484815: *796 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 162.160.135.42
+2024/11/11 06:00:00 [notice] 7453#930914: *568 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 108.157.44.23
+2024/11/11 06:01:00 [notice] 5543#187784: *465 worker_connections are not enough while connecting to upstream, client: 185.90.181.4
+2024/11/11 06:02:00 [alert] 1856#555666: *163 SSL_do_handshake() failed, client: 44.228.178.9
+2024/11/11 06:03:00 [crit] 9561#936335: *957 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 108.158.44.23
+2024/11/11 06:04:00 [emerg] 8853#119506: *887 directory index of "/var/www/html/" is forbidden, client: 3.34.152.147
+2024/11/11 06:05:00 [notice] 7502#120385: *185 client request body is too large (12582912 bytes) while reading client request body, client: 64.235.164.102
+2024/11/11 06:06:00 [alert] 9532#29614: *800 directory index of "/var/www/html/" is forbidden, client: 203.0.113.45
+2024/11/11 06:07:00 [warn] 8784#816415: *705 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 35.161.75.227
+2024/11/11 06:08:00 [alert] 8921#320066: *846 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 185.88.181.4
+2024/11/11 06:09:00 [alert] 9465#961025: *172 upstream sent too big header while reading response header from upstream, client: 205.252.197.98
+2024/11/11 06:10:00 [alert] 6028#713893: *306 directory index of "/var/www/html/" is forbidden, client: 52.86.251.89
+2024/11/11 06:11:00 [notice] 8949#900796: *213 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 23.187.0.253
+2024/11/11 06:12:00 [notice] 7631#50871: *420 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 216.59.194.174
+2024/11/11 06:13:00 [notice] 7611#976347: *148 upstream sent too big header while reading response header from upstream, client: 52.85.251.89
+2024/11/11 06:14:00 [notice] 4769#719360: *910 client stopped connection before send body completed, client: 54.192.18.56
+2024/11/11 06:15:00 [notice] 8985#790370: *101 SSL_do_handshake() failed, client: 157.241.22.35
+2024/11/11 06:16:00 [notice] 5833#160816: *182 client intended to send too large body: 1234567 bytes, client: 198.51.100.23
+2024/11/11 06:17:00 [notice] 4369#163943: *237 client stopped connection before send body completed, client: 104.246.42.193
+2024/11/11 06:18:00 [notice] 3205#502518: *460 limiting requests, excess: 1.234 by zone "api_limit", client: 52.85.251.89
+2024/11/11 06:19:00 [notice] 5650#790665: *302 client stopped connection before send body completed, client: 172.217.169.78
+2024/11/11 06:20:00 [notice] 5323#480228: *855 permission denied while reading upstream response, client: 99.85.234.156
+2024/11/11 06:21:00 [notice] 6033#68268: *511 SSL_do_handshake() failed, client: 173.245.48.12
+2024/11/11 06:22:00 [notice] 1814#687870: *674 client intended to send too large body: 1234567 bytes, client: 173.247.48.12
+2024/11/11 06:23:00 [notice] 3584#53127: *375 limiting requests, excess: 1.234 by zone "api_limit", client: 64.233.164.102
+2024/11/11 06:24:00 [notice] 6963#97127: *690 directory index of "/var/www/html/" is forbidden, client: 185.202.108.153
+2024/11/11 06:25:00 [notice] 7732#686035: *763 client stopped connection before send body completed, client: 54.192.18.56
+2024/11/11 06:26:00 [notice] 2832#126687: *105 client stopped connection before send body completed, client: 216.59.194.174
+2024/11/11 06:27:00 [notice] 6477#460201: *111 worker_connections are not enough while connecting to upstream, client: 34.122.53.81
+2024/11/11 06:28:00 [emerg] 7754#291553: *409 upstream prematurely closed connection while reading response header from upstream, client: 108.158.44.23
+2024/11/11 06:29:00 [warn] 8560#856132: *947 rewrite or internal redirection cycle while processing "/index.html", client: 104.30.1.1
+2024/11/11 06:30:00 [notice] 9025#916856: *286 limiting requests, excess: 1.234 by zone "api_limit", client: 18.244.123.89
+2024/11/11 06:31:00 [notice] 8056#207940: *447 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 185.88.181.4
+2024/11/11 06:32:00 [error] 5233#328587: *14 permission denied while reading upstream response, client: 3.34.152.147
+2024/11/11 06:33:00 [warn] 9759#764569: *528 client sent invalid header line, client: 13.109.42.14
+2024/11/11 06:34:00 [notice] 7982#248308: *658 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 104.246.42.193
+2024/11/11 06:35:00 [notice] 2484#180461: *732 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 23.186.0.253
+2024/11/11 06:36:00 [emerg] 6920#589159: *662 limiting requests, excess: 1.234 by zone "api_limit", client: 173.247.48.12
+2024/11/11 06:37:00 [notice] 9894#100589: *701 worker process exited on signal 11, client: 104.246.42.193
+2024/11/11 06:38:00 [error] 4400#847876: *940 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 198.51.100.1
+2024/11/11 06:39:00 [notice] 7078#58637: *262 directory index of "/var/www/html/" is forbidden, client: 20.191.173.14
+2024/11/11 06:40:00 [notice] 7508#875752: *460 limiting requests, excess: 1.234 by zone "api_limit", client: 40.126.35.19
+2024/11/11 06:41:00 [notice] 4277#684553: *139 client sent invalid header line, client: 185.202.108.153
+2024/11/11 06:42:00 [notice] 6076#229189: *974 client stopped connection before send body completed, client: 216.59.194.174
+2024/11/11 06:43:00 [error] 3410#887278: *946 directory index of "/var/www/html/" is forbidden, client: 104.18.123.96
+2024/11/11 06:44:00 [notice] 9570#453611: *671 upstream sent too big header while reading response header from upstream, client: 173.246.48.12
+2024/11/11 06:45:00 [notice] 2306#871849: *777 client intended to send too large body: 1234567 bytes, client: 198.52.100.1
+2024/11/11 06:46:00 [notice] 1612#472856: *580 client intended to send too large body: 1234567 bytes, client: 54.192.18.56
+2024/11/11 06:47:00 [notice] 6891#858748: *938 permission denied while reading upstream response, client: 35.163.75.227
+2024/11/11 06:48:00 [notice] 3051#1068: *546 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 104.28.1.1
+2024/11/11 06:49:00 [warn] 2643#261393: *259 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 146.75.50.232
+2024/11/11 06:50:00 [emerg] 4557#434874: *598 SSL_do_handshake() failed, client: 35.189.224.25
+2024/11/11 06:51:00 [notice] 9907#943352: *606 rewrite or internal redirection cycle while processing "/index.html", client: 142.252.187.206
+2024/11/11 06:52:00 [notice] 3122#472030: *745 upstream prematurely closed connection while reading response header from upstream, client: 23.45.67.89
+2024/11/11 06:53:00 [emerg] 6084#205605: *461 client stopped connection before send body completed, client: 23.23.62.155
+2024/11/11 06:54:00 [alert] 8971#345223: *1000 client sent invalid header line, client: 104.17.123.96
+2024/11/11 06:55:00 [notice] 9252#981578: *909 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 52.41.144.31
+2024/11/11 06:56:00 [notice] 4122#550523: *121 limiting requests, excess: 1.234 by zone "api_limit", client: 13.107.42.14
+2024/11/11 06:57:00 [notice] 9150#72149: *548 permission denied while reading upstream response, client: 52.84.251.89
+2024/11/11 06:58:00 [notice] 2340#944864: *950 limiting requests, excess: 1.234 by zone "api_limit", client: 35.162.75.227
+2024/11/11 06:59:00 [notice] 9215#399610: *175 worker_connections are not enough while connecting to upstream, client: 104.245.42.193
+2024/11/11 07:00:00 [notice] 1935#933436: *535 SSL_do_handshake() failed, client: 172.217.10.46
+2024/11/11 07:01:00 [warn] 8678#506393: *303 client request body is too large (12582912 bytes) while reading client request body, client: 172.218.10.46
+2024/11/11 07:02:00 [notice] 4295#465768: *43 client intended to send too large body: 1234567 bytes, client: 216.60.194.174
+2024/11/11 07:03:00 [notice] 8671#960155: *943 client request body is too large (12582912 bytes) while reading client request body, client: 35.161.75.227
+2024/11/11 07:04:00 [crit] 8973#747543: *457 client sent invalid header line, client: 192.2.2.1
+2024/11/11 07:05:00 [warn] 8799#201555: *21 client request body is too large (12582912 bytes) while reading client request body, client: 52.85.251.89
+2024/11/11 07:06:00 [notice] 6214#884782: *715 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 205.252.197.98
+2024/11/11 07:07:00 [emerg] 3158#77340: *278 directory index of "/var/www/html/" is forbidden, client: 199.234.45.81
+2024/11/11 07:08:00 [emerg] 2649#553364: *49 SSL_do_handshake() failed, client: 35.227.233.104
+2024/11/11 07:09:00 [notice] 4765#845048: *60 upstream prematurely closed connection while reading response header from upstream, client: 104.21.15.224
+2024/11/11 07:10:00 [notice] 7648#852770: *898 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 172.217.169.78
+2024/11/11 07:11:00 [notice] 8551#753856: *668 client request body is too large (12582912 bytes) while reading client request body, client: 162.159.135.42
+2024/11/11 07:12:00 [notice] 2530#344684: *180 client stopped connection before send body completed, client: 151.101.1.195
+2024/11/11 07:13:00 [notice] 8386#73134: *887 upstream sent too big header while reading response header from upstream, client: 23.47.67.89
+2024/11/11 07:14:00 [notice] 5519#598342: *192 worker process exited on signal 11, client: 199.234.45.81
+2024/11/11 07:15:00 [notice] 8555#59130: *14 directory index of "/var/www/html/" is forbidden, client: 185.201.111.153
+2024/11/11 07:16:00 [warn] 4298#389411: *50 upstream sent too big header while reading response header from upstream, client: 157.241.22.35
+2024/11/11 07:17:00 [notice] 2917#113083: *525 client stopped connection before send body completed, client: 152.200.39.108
+2024/11/11 07:18:00 [notice] 5148#408047: *381 SSL_do_handshake() failed, client: 151.103.129.69
+2024/11/11 07:19:00 [notice] 1167#640115: *737 client stopped connection before send body completed, client: 203.2.113.1
+2024/11/11 07:20:00 [warn] 7191#594032: *501 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 185.200.111.153
+2024/11/11 07:21:00 [notice] 4177#959583: *258 limiting requests, excess: 1.234 by zone "api_limit", client: 23.23.62.155
+2024/11/11 07:22:00 [notice] 2167#748387: *329 client stopped connection before send body completed, client: 152.201.39.108
+2024/11/11 07:23:00 [notice] 8608#790958: *113 upstream prematurely closed connection while reading response header from upstream, client: 44.229.178.9
+2024/11/11 07:24:00 [notice] 3478#362073: *470 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 151.103.129.69
+2024/11/11 07:25:00 [notice] 5937#709059: *28 worker process exited on signal 11, client: 151.102.129.69
+2024/11/11 07:26:00 [alert] 4169#350725: *9 client sent invalid header line, client: 108.157.44.23
+2024/11/11 07:27:00 [notice] 2034#308056: *934 client stopped connection before send body completed, client: 140.84.121.4
+2024/11/11 07:28:00 [warn] 7934#256242: *568 rewrite or internal redirection cycle while processing "/index.html", client: 205.251.197.98
+2024/11/11 07:29:00 [notice] 7663#23324: *92 SSL_do_handshake() failed, client: 104.28.1.1
+2024/11/11 07:30:00 [notice] 4850#585314: *660 client stopped connection before send body completed, client: 44.227.178.9
+2024/11/11 07:31:00 [notice] 4085#338691: *962 permission denied while reading upstream response, client: 192.0.2.178
+2024/11/11 07:32:00 [warn] 1312#801888: *744 directory index of "/var/www/html/" is forbidden, client: 198.51.100.23
+2024/11/11 07:33:00 [warn] 7384#420457: *386 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 162.159.135.42
+2024/11/11 07:34:00 [error] 6151#448463: *853 client stopped connection before send body completed, client: 173.245.48.12
+2024/11/11 07:35:00 [error] 2666#933202: *770 client stopped connection before send body completed, client: 203.0.113.45
+2024/11/11 07:36:00 [notice] 3256#895060: *52 upstream sent invalid header while reading response header from upstream, client: 18.245.123.89
+2024/11/11 07:37:00 [notice] 4520#297191: *674 client request body is too large (12582912 bytes) while reading client request body, client: 52.87.251.89
+2024/11/11 07:38:00 [notice] 9264#323648: *534 upstream prematurely closed connection while reading response header from upstream, client: 34.103.136.180
+2024/11/11 07:39:00 [notice] 9315#607895: *37 client stopped connection before send body completed, client: 40.126.35.19
+2024/11/11 07:40:00 [notice] 4064#521167: *270 directory index of "/var/www/html/" is forbidden, client: 203.2.113.1
+2024/11/11 07:41:00 [notice] 5214#410970: *787 client request body is too large (12582912 bytes) while reading client request body, client: 192.1.2.1
+2024/11/11 07:42:00 [crit] 1796#634961: *463 client request body is too large (12582912 bytes) while reading client request body, client: 152.201.39.108
+2024/11/11 07:43:00 [notice] 2882#188026: *703 permission denied while reading upstream response, client: 34.121.53.81
+2024/11/11 07:44:00 [notice] 1285#433729: *411 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 192.2.2.1
+2024/11/11 07:45:00 [emerg] 1793#156289: *937 client intended to send too large body: 1234567 bytes, client: 44.229.178.9
+2024/11/11 07:46:00 [warn] 6144#557868: *40 worker process exited on signal 11, client: 108.157.44.23
+2024/11/11 07:47:00 [alert] 7089#45799: *51 SSL_do_handshake() failed, client: 172.219.10.46
+2024/11/11 07:48:00 [notice] 9949#943913: *611 no live upstreams while connecting to upstream, client: 151.102.1.195
+2024/11/11 07:49:00 [notice] 8321#621796: *151 client sent invalid header line, client: 157.241.22.35
+2024/11/11 07:50:00 [notice] 8009#408937: *822 client stopped connection before send body completed, client: 23.26.62.155
+2024/11/11 07:51:00 [notice] 2135#913789: *626 no live upstreams while connecting to upstream, client: 162.159.135.42
+2024/11/11 07:52:00 [notice] 3986#155752: *608 SSL_do_handshake() failed, client: 44.230.178.9
+2024/11/11 07:53:00 [notice] 3175#3995: *428 directory index of "/var/www/html/" is forbidden, client: 185.89.181.4
+2024/11/11 07:54:00 [notice] 8454#907788: *176 client request body is too large (12582912 bytes) while reading client request body, client: 173.247.48.12
+2024/11/11 07:55:00 [notice] 5642#557426: *211 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.2.2.1
+2024/11/11 07:56:00 [alert] 6765#591808: *8 client stopped connection before send body completed, client: 35.229.233.104
+2024/11/11 07:57:00 [notice] 6121#158474: *655 SSL_do_handshake() failed, client: 40.128.35.19
+2024/11/11 07:58:00 [notice] 9488#630402: *597 SSL_do_handshake() failed, client: 151.102.1.195
+2024/11/11 07:59:00 [notice] 4887#123825: *104 client request body is too large (12582912 bytes) while reading client request body, client: 3.35.152.147
+2024/11/11 08:00:00 [notice] 1505#196170: *718 client intended to send too large body: 1234567 bytes, client: 104.18.32.141
+2024/11/11 08:01:00 [alert] 8380#95566: *766 permission denied while reading upstream response, client: 157.240.22.35
+2024/11/11 08:02:00 [notice] 8000#946073: *824 permission denied while reading upstream response, client: 172.217.10.46
+2024/11/11 08:03:00 [error] 8015#189766: *458 worker_connections are not enough while connecting to upstream, client: 146.76.50.232
+2024/11/11 08:04:00 [error] 9060#46648: *513 client sent invalid header line, client: 157.240.22.35
+2024/11/11 08:05:00 [notice] 1091#883976: *633 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 152.199.39.108
+2024/11/11 08:06:00 [alert] 4947#572972: *849 client stopped connection before send body completed, client: 192.0.2.178
+2024/11/11 08:07:00 [error] 6852#963028: *554 no live upstreams while connecting to upstream, client: 172.219.10.46
+2024/11/11 08:08:00 [warn] 9593#314319: *342 client stopped connection before send body completed, client: 34.122.53.81
+2024/11/11 08:09:00 [crit] 5458#78165: *749 client request body is too large (12582912 bytes) while reading client request body, client: 185.88.181.4
+2024/11/11 08:10:00 [notice] 4480#415570: *94 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 52.85.251.89
+2024/11/11 08:11:00 [alert] 7238#673783: *43 permission denied while reading upstream response, client: 173.246.48.12
+2024/11/11 08:12:00 [error] 4995#567376: *717 client stopped connection before send body completed, client: 13.108.42.14
+2024/11/11 08:13:00 [notice] 4564#632235: *611 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 104.17.123.96
+2024/11/11 08:14:00 [notice] 7847#983670: *610 directory index of "/var/www/html/" is forbidden, client: 140.84.121.4
+2024/11/11 08:15:00 [alert] 6507#366796: *393 directory index of "/var/www/html/" is forbidden, client: 162.161.135.42
+2024/11/11 08:16:00 [notice] 2646#875340: *302 worker process exited on signal 11, client: 151.102.1.195
+2024/11/11 08:17:00 [warn] 6360#375062: *215 client sent invalid header line, client: 157.240.241.35
+2024/11/11 08:18:00 [notice] 4882#44633: *385 SSL_do_handshake() failed, client: 108.158.44.23
+2024/11/11 08:19:00 [warn] 9370#220672: *357 permission denied while reading upstream response, client: 44.227.178.9
+2024/11/11 08:20:00 [notice] 3655#603078: *971 no live upstreams while connecting to upstream, client: 35.228.233.104
+2024/11/11 08:21:00 [notice] 5486#811222: *91 client intended to send too large body: 1234567 bytes, client: 205.253.197.98
+2024/11/11 08:22:00 [warn] 5686#299554: *538 client sent invalid header line, client: 204.94.177.45
+2024/11/11 08:23:00 [notice] 6236#311670: *642 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 34.103.136.180
+2024/11/11 08:24:00 [notice] 8781#192862: *25 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 40.127.35.19
+2024/11/11 08:25:00 [notice] 1081#431172: *728 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 172.217.169.78
+2024/11/11 08:26:00 [notice] 6461#726745: *8 rewrite or internal redirection cycle while processing "/index.html", client: 151.102.129.69
+2024/11/11 08:27:00 [warn] 6817#184351: *988 worker process exited on signal 11, client: 35.229.233.104
+2024/11/11 08:28:00 [error] 9716#672073: *192 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 52.40.144.31
+2024/11/11 08:29:00 [notice] 1099#679870: *820 upstream prematurely closed connection while reading response header from upstream, client: 198.52.100.1
+2024/11/11 08:30:00 [notice] 6431#391541: *535 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 23.186.0.253
+2024/11/11 08:31:00 [notice] 5874#531498: *327 client sent invalid header line, client: 18.244.123.89
+2024/11/11 08:32:00 [error] 9355#830183: *451 directory index of "/var/www/html/" is forbidden, client: 3.33.152.147
+2024/11/11 08:33:00 [notice] 3216#631895: *554 upstream prematurely closed connection while reading response header from upstream, client: 146.76.50.232
+2024/11/11 08:34:00 [error] 5650#261649: *824 client sent invalid header line, client: 104.18.123.96
+2024/11/11 08:35:00 [warn] 7822#172021: *121 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 185.201.111.153
+2024/11/11 08:36:00 [crit] 3920#666284: *550 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 20.191.173.14
+2024/11/11 08:37:00 [notice] 1536#393382: *941 SSL_do_handshake() failed, client: 199.233.45.81
+2024/11/11 08:38:00 [notice] 5623#734393: *802 client stopped connection before send body completed, client: 173.247.48.12
+2024/11/11 08:39:00 [emerg] 9239#759162: *951 client request body is too large (12582912 bytes) while reading client request body, client: 34.102.136.180
+2024/11/11 08:40:00 [notice] 4463#654142: *203 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 34.103.136.180
+2024/11/11 08:41:00 [notice] 6890#736071: *941 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 40.128.35.19
+2024/11/11 08:42:00 [error] 2000#950308: *258 client sent invalid header line, client: 23.186.0.253
+2024/11/11 08:43:00 [notice] 8763#786695: *24 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 52.41.144.31
+2024/11/11 08:44:00 [notice] 8366#256430: *603 client stopped connection before send body completed, client: 185.201.108.153
+2024/11/11 08:45:00 [warn] 1878#96947: *95 client stopped connection before send body completed, client: 54.193.18.56
+2024/11/11 08:46:00 [notice] 8121#567133: *3 worker process exited on signal 11, client: 40.127.35.19
+2024/11/11 08:47:00 [notice] 1536#283037: *357 directory index of "/var/www/html/" is forbidden, client: 20.189.173.14
+2024/11/11 08:48:00 [notice] 2675#434664: *868 client stopped connection before send body completed, client: 205.251.197.98
+2024/11/11 08:49:00 [notice] 2169#57105: *861 client stopped connection before send body completed, client: 52.85.251.89
+2024/11/11 08:50:00 [notice] 3155#818720: *27 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 44.227.178.9
+2024/11/11 08:51:00 [error] 3470#464479: *945 SSL_do_handshake() failed, client: 18.245.123.89
+2024/11/11 08:52:00 [alert] 7328#700691: *196 limiting requests, excess: 1.234 by zone "api_limit", client: 54.194.18.56
+2024/11/11 08:53:00 [notice] 9380#278438: *643 worker process exited on signal 11, client: 99.85.234.156
+2024/11/11 08:54:00 [notice] 8417#565235: *984 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 23.47.67.89
+2024/11/11 08:55:00 [error] 1749#567239: *527 client sent invalid header line, client: 192.0.2.1
+2024/11/11 08:56:00 [notice] 9466#658826: *885 client stopped connection before send body completed, client: 216.60.194.174
+2024/11/11 08:57:00 [notice] 1085#890983: *819 client request body is too large (12582912 bytes) while reading client request body, client: 35.229.233.104
+2024/11/11 08:58:00 [warn] 8256#594390: *111 directory index of "/var/www/html/" is forbidden, client: 35.188.224.25
+2024/11/11 08:59:00 [notice] 7617#750551: *716 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 185.202.108.153
+2024/11/11 09:00:00 [notice] 7322#140998: *701 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 54.194.18.56
+2024/11/11 09:01:00 [emerg] 6700#484424: *82 permission denied while reading upstream response, client: 216.58.194.174
+2024/11/11 09:02:00 [error] 9558#527708: *672 client request body is too large (12582912 bytes) while reading client request body, client: 3.35.152.147
+2024/11/11 09:03:00 [alert] 2555#89381: *882 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 64.234.164.102
+2024/11/11 09:04:00 [alert] 3950#418802: *702 SSL_do_handshake() failed, client: 35.186.224.25
+2024/11/11 09:05:00 [notice] 7637#51455: *378 worker_connections are not enough while connecting to upstream, client: 198.52.100.1
+2024/11/11 09:06:00 [alert] 3536#874118: *653 no live upstreams while connecting to upstream, client: 54.192.18.56
+2024/11/11 09:07:00 [notice] 9304#620738: *772 client sent invalid header line, client: 157.242.22.35
+2024/11/11 09:08:00 [notice] 7032#271013: *15 directory index of "/var/www/html/" is forbidden, client: 52.84.251.89
+2024/11/11 09:09:00 [warn] 7772#324025: *971 SSL_do_handshake() failed, client: 203.2.113.1
+2024/11/11 09:10:00 [alert] 8785#486872: *717 client stopped connection before send body completed, client: 204.95.177.45
+2024/11/11 09:11:00 [notice] 5149#660918: *405 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 151.102.129.69
+2024/11/11 09:12:00 [crit] 1574#84279: *210 worker process exited on signal 11, client: 104.29.1.1
+2024/11/11 09:13:00 [notice] 9229#350515: *524 worker process exited on signal 11, client: 40.127.35.19
+2024/11/11 09:14:00 [alert] 9445#641116: *153 client sent invalid header line, client: 54.194.18.56
+2024/11/11 09:15:00 [notice] 1416#270329: *842 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 64.235.164.102
+2024/11/11 09:16:00 [warn] 3864#890547: *978 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 64.234.164.102
+2024/11/11 09:17:00 [alert] 6250#335480: *687 worker_connections are not enough while connecting to upstream, client: 198.53.100.1
+2024/11/11 09:18:00 [notice] 8299#56349: *733 client stopped connection before send body completed, client: 18.244.123.89
+2024/11/11 09:19:00 [emerg] 9261#944152: *993 upstream sent too big header while reading response header from upstream, client: 44.229.178.9
+2024/11/11 09:20:00 [error] 6842#948735: *128 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 104.28.1.1
+2024/11/11 09:21:00 [notice] 1026#606058: *436 client stopped connection before send body completed, client: 203.2.113.1
+2024/11/11 09:22:00 [error] 8100#182452: *789 directory index of "/var/www/html/" is forbidden, client: 108.158.44.23
+2024/11/11 09:23:00 [warn] 9352#945364: *755 client stopped connection before send body completed, client: 204.93.177.45
+2024/11/11 09:24:00 [notice] 6820#631110: *897 directory index of "/var/www/html/" is forbidden, client: 185.200.108.153
+2024/11/11 09:24:00 [crit] 1960#163185: *880 Unlike expected headers, upstream sent invalid header while reading response header from upstream, client: 127.0.0.1
+2024/11/11 09:25:00 [error] 8808#256674: *722 limiting requests, excess: 1.234 by zone "api_limit", client: 142.251.187.206
+2024/11/11 09:26:00 [emerg] 5577#355020: *110 client sent invalid header line, client: 104.20.32.141
+2024/11/11 09:27:00 [notice] 5612#71383: *123 SSL_do_handshake() failed, client: 35.187.224.25
+2024/11/11 09:28:00 [notice] 7025#538141: *464 client stopped connection before send body completed, client: 185.201.108.153
+2024/11/11 09:29:00 [notice] 3819#794690: *218 SSL_do_handshake() failed, client: 23.187.0.253
+2024/11/11 09:30:00 [notice] 1287#612854: *901 upstream sent invalid header while reading response header from upstream, client: 54.194.18.56
+2024/11/11 09:31:00 [notice] 4423#247209: *262 client stopped connection before send body completed, client: 198.53.100.1
+2024/11/11 09:32:00 [notice] 2123#987835: *820 worker_connections are not enough while connecting to upstream, client: 185.89.181.4
+2024/11/11 09:33:00 [notice] 6703#706858: *831 client sent invalid header line, client: 173.245.48.12
+2024/11/11 09:34:00 [notice] 6257#594777: *387 client stopped connection before send body completed, client: 146.77.50.232
+2024/11/11 09:35:00 [alert] 1058#653674: *371 upstream sent invalid header while reading response header from upstream, client: 203.0.113.1
+2024/11/11 09:36:00 [emerg] 2613#387995: *468 client stopped connection before send body completed, client: 204.93.177.45
+2024/11/11 09:37:00 [notice] 6872#44067: *209 worker process exited on signal 11, client: 185.90.181.4
+2024/11/11 09:38:00 [notice] 8326#20854: *769 client request body is too large (12582912 bytes) while reading client request body, client: 142.250.187.206
+2024/11/11 09:39:00 [notice] 6607#822165: *543 SSL_do_handshake() failed, client: 104.19.32.141
+2024/11/11 09:40:00 [notice] 8297#839439: *481 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 157.240.22.35
+2024/11/11 09:41:00 [error] 4829#29414: *742 SSL_do_handshake() failed, client: 185.88.181.4
+2024/11/11 09:42:00 [warn] 8678#947348: *349 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 23.24.62.155
+2024/11/11 09:43:00 [notice] 8293#656705: *69 SSL_do_handshake() failed, client: 205.253.197.98
+2024/11/11 09:44:00 [notice] 2589#228635: *40 client sent invalid header line, client: 140.84.121.4
+2024/11/11 09:45:00 [notice] 6629#875472: *800 client stopped connection before send body completed, client: 203.0.113.1
+2024/11/11 09:46:00 [notice] 4407#651466: *328 client intended to send too large body: 1234567 bytes, client: 157.240.22.35
+2024/11/11 09:47:00 [alert] 5943#23116: *563 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 104.18.32.141
+2024/11/11 09:48:00 [notice] 3967#627920: *593 worker process exited on signal 11, client: 34.104.136.180
+2024/11/11 09:49:00 [notice] 8670#277380: *732 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 23.47.67.89
+2024/11/11 09:50:00 [notice] 1466#849528: *248 client stopped connection before send body completed, client: 108.158.44.23
+2024/11/11 09:51:00 [notice] 3381#99663: *524 directory index of "/var/www/html/" is forbidden, client: 151.103.1.195
+2024/11/11 09:52:00 [notice] 2664#392442: *237 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 199.234.45.81
+2024/11/11 09:53:00 [warn] 9788#473973: *664 SSL_do_handshake() failed, client: 40.127.35.19
+2024/11/11 09:54:00 [notice] 3146#171268: *218 client sent invalid header line, client: 108.156.44.23
+2024/11/11 09:55:00 [crit] 3348#314559: *877 worker_connections are not enough while connecting to upstream, client: 142.252.187.206
+2024/11/11 09:56:00 [warn] 2332#578433: *29 upstream sent invalid header while reading response header from upstream, client: 34.121.53.81
+2024/11/11 09:57:00 [notice] 5254#643770: *435 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 172.218.10.46
+2024/11/11 09:58:00 [alert] 3204#297654: *376 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 44.227.178.9
+2024/11/11 09:59:00 [notice] 5493#467239: *391 client request body is too large (12582912 bytes) while reading client request body, client: 173.247.48.12
+2024/11/11 10:00:00 [notice] 9896#732302: *366 rewrite or internal redirection cycle while processing "/index.html", client: 64.235.164.102
+2024/11/11 10:01:00 [error] 3810#231780: *474 client intended to send too large body: 1234567 bytes, client: 44.227.178.9
+2024/11/11 10:02:00 [notice] 1342#523129: *255 client stopped connection before send body completed, client: 185.199.111.153
+2024/11/11 10:03:00 [crit] 5546#378102: *887 upstream sent invalid header while reading response header from upstream, client: 23.185.0.253
+2024/11/11 10:04:00 [warn] 6112#275672: *668 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 172.219.10.46
+2024/11/11 10:05:00 [error] 6193#343718: *230 client sent invalid header line, client: 157.241.22.35
+2024/11/11 10:06:00 [emerg] 2323#992855: *313 worker process exited on signal 11, client: 203.1.113.1
+2024/11/11 10:07:00 [notice] 2765#992034: *948 client intended to send too large body: 1234567 bytes, client: 146.76.50.232
+2024/11/11 10:08:00 [notice] 7239#498814: *154 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 203.2.113.1
+2024/11/11 10:09:00 [notice] 5489#166955: *343 directory index of "/var/www/html/" is forbidden, client: 35.188.224.25
+2024/11/11 10:10:00 [warn] 4432#291479: *743 client stopped connection before send body completed, client: 142.253.187.206
+2024/11/11 10:11:00 [notice] 7624#510359: *346 client stopped connection before send body completed, client: 35.161.75.227
+2024/11/11 10:12:00 [warn] 2239#633993: *24 limiting requests, excess: 1.234 by zone "api_limit", client: 216.60.194.174
+2024/11/11 10:13:00 [error] 2205#579203: *139 client request body is too large (12582912 bytes) while reading client request body, client: 3.33.152.147
+2024/11/11 10:14:00 [notice] 5609#540443: *948 SSL_do_handshake() failed, client: 23.45.67.89
+2024/11/11 10:15:00 [error] 8160#208543: *906 rewrite or internal redirection cycle while processing "/index.html", client: 23.45.67.89
+2024/11/11 10:16:00 [warn] 7580#107970: *47 SSL_do_handshake() failed, client: 172.217.10.46
+2024/11/11 10:17:00 [notice] 4633#569718: *996 client intended to send too large body: 1234567 bytes, client: 40.127.35.19
+2024/11/11 10:18:00 [notice] 6278#379924: *817 client sent invalid header line, client: 157.240.241.35
+2024/11/11 10:19:00 [notice] 9849#872447: *263 client request body is too large (12582912 bytes) while reading client request body, client: 13.109.42.14
+2024/11/11 10:20:00 [notice] 9525#772572: *710 rewrite or internal redirection cycle while processing "/index.html", client: 52.87.251.89
+2024/11/11 10:21:00 [crit] 6480#770778: *500 client request body is too large (12582912 bytes) while reading client request body, client: 104.19.32.141
+2024/11/11 10:22:00 [notice] 5819#215058: *476 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 216.58.194.174
+2024/11/11 10:23:00 [error] 9857#785534: *202 rewrite or internal redirection cycle while processing "/index.html", client: 104.18.123.96
+2024/11/11 10:24:00 [notice] 7917#788999: *440 directory index of "/var/www/html/" is forbidden, client: 40.126.35.19
+2024/11/11 10:25:00 [notice] 3844#672889: *122 worker process exited on signal 11, client: 151.103.129.69
+2024/11/11 10:26:00 [notice] 4079#132830: *972 worker_connections are not enough while connecting to upstream, client: 35.161.75.227
+2024/11/11 10:27:00 [notice] 2724#743033: *231 SSL_do_handshake() failed, client: 35.187.224.25
+2024/11/11 10:28:00 [emerg] 1592#596028: *689 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 204.95.177.45
+2024/11/11 10:29:00 [notice] 5285#643695: *813 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 185.90.181.4
+2024/11/11 10:30:00 [notice] 4390#852955: *22 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 146.77.50.232
+2024/11/11 10:31:00 [notice] 9813#101347: *797 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 54.192.18.56
+2024/11/11 10:32:00 [warn] 9936#621305: *810 permission denied while reading upstream response, client: 203.2.113.1
+2024/11/11 10:33:00 [notice] 9745#150873: *898 client request body is too large (12582912 bytes) while reading client request body, client: 151.103.1.195
+2024/11/11 10:34:00 [warn] 9790#677170: *423 client stopped connection before send body completed, client: 151.103.129.69
+2024/11/11 10:35:00 [warn] 9439#272565: *544 SSL_do_handshake() failed, client: 52.85.251.89
+2024/11/11 10:36:00 [notice] 8852#547551: *495 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 35.228.233.104
+2024/11/11 10:37:00 [notice] 2732#55742: *290 client stopped connection before send body completed, client: 172.219.10.46
+2024/11/11 10:38:00 [notice] 9239#978960: *718 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 13.37.99.150
+2024/11/11 10:39:00 [notice] 6007#304576: *224 directory index of "/var/www/html/" is forbidden, client: 23.186.0.253
+2024/11/11 10:40:00 [error] 8589#368755: *155 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 104.30.1.1
+2024/11/11 10:41:00 [warn] 7816#63585: *776 client sent invalid header line, client: 192.1.2.1
+2024/11/11 10:42:00 [emerg] 9351#162761: *297 client sent invalid header line, client: 142.253.187.206
+2024/11/11 10:43:00 [emerg] 2754#222080: *348 worker_connections are not enough while connecting to upstream, client: 52.39.144.31
+2024/11/11 10:44:00 [error] 1472#186799: *749 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 151.101.1.195
+2024/11/11 10:45:00 [notice] 1266#270459: *471 upstream prematurely closed connection while reading response header from upstream, client: 13.36.99.150
+2024/11/11 10:46:00 [warn] 6009#881911: *689 client request body is too large (12582912 bytes) while reading client request body, client: 99.84.234.156
+2024/11/11 10:47:00 [error] 7450#471966: *165 directory index of "/var/www/html/" is forbidden, client: 142.250.187.206
+2024/11/11 10:48:00 [notice] 4023#858903: *68 SSL_do_handshake() failed, client: 18.244.123.89
+2024/11/11 10:49:00 [notice] 6205#644891: *375 client stopped connection before send body completed, client: 205.252.197.98
+2024/11/11 10:50:00 [notice] 9203#491304: *536 client request body is too large (12582912 bytes) while reading client request body, client: 54.192.18.56
+2024/11/11 10:51:00 [notice] 5569#225910: *492 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 172.219.10.46
+2024/11/11 10:52:00 [notice] 3889#731613: *47 client stopped connection before send body completed, client: 35.228.233.104
+2024/11/11 10:53:00 [alert] 9970#35635: *604 client sent invalid header line, client: 140.84.121.4
+2024/11/11 10:54:00 [emerg] 1723#323780: *511 client sent invalid header line, client: 34.122.53.81
+2024/11/11 10:55:00 [error] 7377#346667: *39 worker_connections are not enough while connecting to upstream, client: 13.35.99.150
+2024/11/11 10:56:00 [notice] 7478#115260: *952 upstream sent too big header while reading response header from upstream, client: 185.199.111.153
+2024/11/11 10:57:00 [notice] 3139#658378: *122 client intended to send too large body: 1234567 bytes, client: 44.230.178.9
+2024/11/11 10:58:00 [notice] 3486#899495: *322 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 99.85.234.156
+2024/11/11 10:59:00 [emerg] 6832#780409: *796 directory index of "/var/www/html/" is forbidden, client: 172.219.10.46
+2024/11/11 11:00:00 [warn] 3295#948300: *681 SSL_do_handshake() failed, client: 35.187.224.25
+2024/11/11 11:01:00 [notice] 5203#925440: *927 client stopped connection before send body completed, client: 151.101.1.195
+2024/11/11 11:02:00 [notice] 8385#745232: *488 worker_connections are not enough while connecting to upstream, client: 34.120.53.81
+2024/11/11 11:03:00 [warn] 2149#183964: *401 upstream sent invalid header while reading response header from upstream, client: 104.18.32.141
+2024/11/11 11:04:00 [notice] 4433#927976: *678 rewrite or internal redirection cycle while processing "/index.html", client: 185.201.108.153
+2024/11/11 11:05:00 [notice] 8460#892931: *248 worker process exited on signal 11, client: 3.34.152.147
+2024/11/11 11:06:00 [notice] 9685#177992: *262 worker_connections are not enough while connecting to upstream, client: 34.104.136.180
+2024/11/11 11:07:00 [notice] 9031#181822: *385 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 151.101.1.195
+2024/11/11 11:08:00 [error] 5090#58785: *425 client request body is too large (12582912 bytes) while reading client request body, client: 199.232.45.81
+2024/11/11 11:09:00 [error] 2785#25187: *684 SSL_do_handshake() failed, client: 151.101.65.69
+2024/11/11 11:10:00 [alert] 5109#973386: *371 client stopped connection before send body completed, client: 3.33.152.147
+2024/11/11 11:11:00 [notice] 7629#603552: *344 upstream sent invalid header while reading response header from upstream, client: 140.83.121.4
+2024/11/11 11:11:11 [emerg] 7519#133431: *120 Developers overlooked worker_connections limits, causing an upstream connection failure, client: 192.168.1.2
+2024/11/11 11:12:00 [notice] 1431#539177: *308 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 204.95.177.45
+2024/11/11 11:13:00 [alert] 2446#130597: *248 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 108.158.44.23
+2024/11/11 11:14:00 [notice] 7158#959430: *979 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 40.126.35.19
+2024/11/11 11:15:00 [notice] 7067#572703: *256 client request body is too large (12582912 bytes) while reading client request body, client: 104.30.1.1
+2024/11/11 11:16:00 [notice] 2619#170227: *388 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 173.247.48.12
+2024/11/11 11:17:00 [emerg] 9853#175667: *899 SSL_do_handshake() failed, client: 40.126.35.19
+2024/11/11 11:18:00 [warn] 9680#700025: *43 directory index of "/var/www/html/" is forbidden, client: 40.127.35.19
+2024/11/11 11:19:00 [notice] 5650#133205: *176 upstream sent invalid header while reading response header from upstream, client: 99.86.234.156
+2024/11/11 11:20:00 [error] 7934#422469: *429 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 140.83.121.4
+2024/11/11 11:21:00 [error] 4521#898716: *293 upstream sent too big header while reading response header from upstream, client: 198.53.100.1
+2024/11/11 11:22:00 [notice] 4764#293433: *145 client request body is too large (12582912 bytes) while reading client request body, client: 151.103.1.195
+2024/11/11 11:23:00 [notice] 3249#539759: *956 client sent invalid header line, client: 199.233.45.81
+2024/11/11 11:24:00 [emerg] 1899#664894: *538 upstream sent invalid header while reading response header from upstream, client: 52.40.144.31
+2024/11/11 11:25:00 [notice] 2711#235201: *584 worker process exited on signal 11, client: 52.40.144.31
+2024/11/11 11:26:00 [alert] 2913#122892: *501 worker_connections are not enough while connecting to upstream, client: 44.228.178.9
+2024/11/11 11:27:00 [error] 6400#531240: *936 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 198.51.100.1
+2024/11/11 11:28:00 [notice] 6851#392482: *569 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 35.162.75.227
+2024/11/11 11:29:00 [error] 3550#169146: *591 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 142.252.187.206
+2024/11/11 11:30:00 [warn] 2454#668214: *137 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 34.103.136.180
+2024/11/11 11:31:00 [emerg] 6985#445931: *594 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 151.103.129.69
+2024/11/11 11:32:00 [emerg] 8203#790681: *899 worker_connections are not enough while connecting to upstream, client: 54.194.18.56
+2024/11/11 11:33:00 [notice] 2938#518108: *504 worker_connections are not enough while connecting to upstream, client: 35.189.224.25
+2024/11/11 11:34:00 [notice] 4411#660884: *845 client stopped connection before send body completed, client: 151.101.65.69
+2024/11/11 11:35:00 [notice] 9619#941687: *503 client stopped connection before send body completed, client: 64.234.164.102
+2024/11/11 11:36:00 [notice] 4859#521929: *362 upstream sent too big header while reading response header from upstream, client: 18.246.123.89
+2024/11/11 11:37:00 [notice] 4490#763899: *253 client stopped connection before send body completed, client: 35.161.75.227
+2024/11/11 11:38:00 [notice] 8882#748634: *851 limiting requests, excess: 1.234 by zone "api_limit", client: 185.90.181.4
+2024/11/11 11:39:00 [warn] 3343#603734: *636 client sent invalid header line, client: 54.193.18.56
+2024/11/11 11:40:00 [notice] 5978#329381: *332 client intended to send too large body: 1234567 bytes, client: 205.251.197.98
+2024/11/11 11:41:00 [warn] 6818#27599: *360 SSL_do_handshake() failed, client: 34.102.136.180
+2024/11/11 11:42:00 [notice] 4645#197597: *509 rewrite or internal redirection cycle while processing "/index.html", client: 44.228.178.9
+2024/11/11 11:43:00 [warn] 9436#199822: *473 client sent invalid header line, client: 23.25.62.155
+2024/11/11 11:44:00 [error] 1678#543239: *602 limiting requests, excess: 1.234 by zone "api_limit", client: 35.187.224.25
+2024/11/11 11:45:00 [notice] 4845#225324: *812 client sent invalid header line, client: 35.163.75.227
+2024/11/11 11:46:00 [notice] 5725#394280: *721 client sent invalid header line, client: 172.217.169.78
+2024/11/11 11:47:00 [notice] 3856#120640: *716 client stopped connection before send body completed, client: 216.60.194.174
+2024/11/11 11:48:00 [notice] 9303#844255: *832 client request body is too large (12582912 bytes) while reading client request body, client: 205.252.197.98
+2024/11/11 11:49:00 [error] 9839#201034: *997 client stopped connection before send body completed, client: 3.35.152.147
+2024/11/11 11:50:00 [warn] 8826#541021: *791 client intended to send too large body: 1234567 bytes, client: 13.108.42.14
+2024/11/11 11:51:00 [alert] 2449#645913: *885 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 199.232.45.81
+2024/11/11 11:52:00 [emerg] 1791#801505: *666 no live upstreams while connecting to upstream, client: 44.229.178.9
+2024/11/11 11:53:00 [error] 7604#727389: *188 limiting requests, excess: 1.234 by zone "api_limit", client: 13.32.99.150
+2024/11/11 11:54:00 [notice] 5108#860038: *977 client request body is too large (12582912 bytes) while reading client request body, client: 64.235.164.102
+2024/11/11 11:55:00 [notice] 3105#140701: *411 client sent invalid header line, client: 104.16.123.96
+2024/11/11 11:56:00 [notice] 5807#961595: *221 SSL_do_handshake() failed, client: 146.77.50.232
+2024/11/11 11:57:00 [warn] 8716#728149: *49 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 185.199.111.153
+2024/11/11 11:58:00 [error] 9944#635699: *244 directory index of "/var/www/html/" is forbidden, client: 23.24.62.155
+2024/11/11 11:59:00 [emerg] 2320#544546: *305 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 44.229.178.9
+2024/11/11 12:00:00 [notice] 5932#584225: *235 SSL_do_handshake() failed, client: 108.156.44.23
+2024/11/11 12:01:00 [notice] 9839#736508: *300 client sent invalid header line, client: 3.33.152.147
+2024/11/11 12:02:00 [alert] 3349#844513: *7 SSL_do_handshake() failed, client: 18.246.123.89
+2024/11/11 12:03:00 [notice] 4431#812610: *130 client sent invalid header line, client: 204.93.177.45
+2024/11/11 12:04:00 [emerg] 9940#224401: *886 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 44.230.178.9
+2024/11/11 12:05:00 [notice] 3667#705864: *16 SSL_do_handshake() failed, client: 35.163.75.227
+2024/11/11 12:06:00 [notice] 7951#507322: *415 upstream sent too big header while reading response header from upstream, client: 44.229.178.9
+2024/11/11 12:07:00 [notice] 1553#899196: *344 SSL_do_handshake() failed, client: 108.158.44.23
+2024/11/11 12:08:00 [notice] 8268#889180: *149 directory index of "/var/www/html/" is forbidden, client: 185.199.108.153
+2024/11/11 12:09:00 [notice] 2860#134222: *594 SSL_do_handshake() failed, client: 99.84.234.156
+2024/11/11 12:10:00 [notice] 1510#963524: *255 SSL_do_handshake() failed, client: 52.39.144.31
+2024/11/11 12:11:00 [warn] 5279#707120: *232 worker_connections are not enough while connecting to upstream, client: 104.18.32.141
+2024/11/11 12:12:00 [notice] 1095#409521: *509 SSL_do_handshake() failed, client: 3.35.152.147
+2024/11/11 12:13:00 [alert] 6019#703003: *249 client intended to send too large body: 1234567 bytes, client: 34.122.53.81
+2024/11/11 12:14:00 [notice] 4572#848011: *871 client intended to send too large body: 1234567 bytes, client: 152.199.39.108
+2024/11/11 12:15:00 [notice] 4887#340106: *985 SSL_do_handshake() failed, client: 52.86.251.89
+2024/11/11 12:16:00 [notice] 5527#228522: *686 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 34.120.53.81
+2024/11/11 12:17:00 [notice] 4085#699975: *328 client request body is too large (12582912 bytes) while reading client request body, client: 99.84.234.156
+2024/11/11 12:18:00 [notice] 1648#637621: *25 upstream prematurely closed connection while reading response header from upstream, client: 104.18.123.96
+2024/11/11 12:19:00 [notice] 9324#747905: *29 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 142.251.187.206
+2024/11/11 12:20:00 [notice] 4494#86698: *715 client intended to send too large body: 1234567 bytes, client: 104.16.123.96
+2024/11/11 12:21:00 [notice] 1394#169819: *798 directory index of "/var/www/html/" is forbidden, client: 44.229.178.9
+2024/11/11 12:22:00 [notice] 2376#469165: *804 worker_connections are not enough while connecting to upstream, client: 140.82.121.4
+2024/11/11 12:23:00 [alert] 7720#554101: *970 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 216.58.194.174
+2024/11/11 12:24:00 [notice] 4153#471781: *984 rewrite or internal redirection cycle while processing "/index.html", client: 152.201.39.108
+2024/11/11 12:25:00 [notice] 4686#561078: *201 rewrite or internal redirection cycle while processing "/index.html", client: 13.109.42.14
+2024/11/11 12:26:00 [notice] 6167#972636: *672 client intended to send too large body: 1234567 bytes, client: 192.0.2.178
+2024/11/11 12:27:00 [notice] 3742#707854: *49 worker process exited on signal 11, client: 152.199.39.108
+2024/11/11 12:28:00 [notice] 4063#682729: *37 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 35.163.75.227
+2024/11/11 12:29:00 [alert] 8379#701104: *92 worker process exited on signal 11, client: 146.76.50.232
+2024/11/11 12:30:00 [notice] 5627#445412: *122 directory index of "/var/www/html/" is forbidden, client: 44.229.178.9
+2024/11/11 12:31:00 [notice] 2752#315577: *38 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 35.163.75.227
+2024/11/11 12:32:00 [notice] 3545#863350: *844 client stopped connection before send body completed, client: 23.186.0.253
+2024/11/11 12:33:00 [emerg] 2873#302271: *315 client stopped connection before send body completed, client: 104.19.32.141
+2024/11/11 12:34:00 [notice] 5586#598663: *116 client stopped connection before send body completed, client: 146.76.50.232
+2024/11/11 12:35:00 [notice] 1731#812499: *60 SSL_do_handshake() failed, client: 34.104.136.180
+2024/11/11 12:36:00 [notice] 5280#70808: *624 client stopped connection before send body completed, client: 185.201.111.153
+2024/11/11 12:37:00 [notice] 6269#924805: *989 permission denied while reading upstream response, client: 99.85.234.156
+2024/11/11 12:38:00 [crit] 5408#450141: *13 no live upstreams while connecting to upstream, client: 140.83.121.4
+2024/11/11 12:39:00 [alert] 7354#145367: *194 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 140.84.121.4
+2024/11/11 12:40:00 [notice] 2917#744078: *494 SSL_do_handshake() failed, client: 203.0.113.1
+2024/11/11 12:41:00 [notice] 9455#487162: *798 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 142.253.187.206
+2024/11/11 12:42:00 [notice] 5824#128150: *967 upstream sent invalid header while reading response header from upstream, client: 140.84.121.4
+2024/11/11 12:43:00 [notice] 6461#586418: *204 client stopped connection before send body completed, client: 104.18.32.141
+2024/11/11 12:44:00 [notice] 9680#344341: *907 no live upstreams while connecting to upstream, client: 18.244.123.89
+2024/11/11 12:45:00 [warn] 8223#934579: *167 client sent invalid header line, client: 192.0.2.1
+2024/11/11 12:46:00 [warn] 3733#316139: *555 permission denied while reading upstream response, client: 54.194.18.56
+2024/11/11 12:47:00 [crit] 4621#447935: *301 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 52.39.144.31
+2024/11/11 12:48:00 [notice] 8099#310716: *512 client request body is too large (12582912 bytes) while reading client request body, client: 52.39.144.31
+2024/11/11 12:49:00 [notice] 5426#333568: *241 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 204.93.177.45
+2024/11/11 12:50:00 [notice] 4406#261513: *683 worker_connections are not enough while connecting to upstream, client: 54.194.18.56
+2024/11/11 12:51:00 [notice] 1246#746758: *241 worker_connections are not enough while connecting to upstream, client: 104.21.15.224
+2024/11/11 12:52:00 [notice] 2605#882648: *702 client stopped connection before send body completed, client: 18.244.123.89
+2024/11/11 12:53:00 [notice] 4249#236245: *203 SSL_do_handshake() failed, client: 34.121.53.81
+2024/11/11 12:54:00 [notice] 4628#936046: *146 SSL_do_handshake() failed, client: 205.251.197.98
+2024/11/11 12:55:00 [notice] 9275#215005: *828 client stopped connection before send body completed, client: 35.163.75.227
+2024/11/11 12:56:00 [notice] 9420#797131: *942 directory index of "/var/www/html/" is forbidden, client: 99.85.234.156
+2024/11/11 12:57:00 [notice] 5240#702385: *129 upstream sent too big header while reading response header from upstream, client: 13.35.99.150
+2024/11/11 12:58:00 [warn] 3784#46469: *771 SSL_do_handshake() failed, client: 185.201.108.153
+2024/11/11 12:59:00 [notice] 8160#640256: *208 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 40.127.35.19
+2024/11/11 13:00:00 [warn] 1168#611167: *471 permission denied while reading upstream response, client: 34.121.53.81
+2024/11/11 13:01:00 [notice] 2732#364529: *961 permission denied while reading upstream response, client: 151.102.129.69
+2024/11/11 13:02:00 [notice] 5162#210464: *965 limiting requests, excess: 1.234 by zone "api_limit", client: 140.84.121.4
+2024/11/11 13:03:00 [notice] 1539#960123: *936 worker process exited on signal 11, client: 199.234.45.81
+2024/11/11 13:04:00 [emerg] 2641#133447: *410 SSL_do_handshake() failed, client: 157.240.241.35
+2024/11/11 13:05:00 [error] 1162#784002: *434 worker_connections are not enough while connecting to upstream, client: 198.51.100.1
+2024/11/11 13:06:00 [crit] 1871#349897: *735 SSL_do_handshake() failed, client: 204.93.177.45
+2024/11/11 13:07:00 [error] 6415#197071: *199 permission denied while reading upstream response, client: 198.52.100.1
+2024/11/11 13:08:00 [warn] 3718#425678: *708 client request body is too large (12582912 bytes) while reading client request body, client: 44.228.178.9
+2024/11/11 13:09:00 [notice] 7251#770600: *857 SSL_do_handshake() failed, client: 52.86.251.89
+2024/11/11 13:10:00 [alert] 9576#41373: *157 client intended to send too large body: 1234567 bytes, client: 20.189.173.14
+2024/11/11 13:11:00 [warn] 4343#668963: *793 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 185.88.181.4
+2024/11/11 13:12:00 [notice] 8218#269857: *244 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 20.189.173.14
+2024/11/11 13:13:00 [warn] 2809#492288: *697 SSL_do_handshake() failed, client: 151.102.1.195
+2024/11/11 13:14:00 [crit] 9061#211054: *584 client request body is too large (12582912 bytes) while reading client request body, client: 157.241.22.35
+2024/11/11 13:15:00 [notice] 1910#235122: *54 client sent invalid header line, client: 18.246.123.89
+2024/11/11 13:16:00 [notice] 4731#747170: *172 no live upstreams while connecting to upstream, client: 146.76.50.232
+2024/11/11 13:17:00 [notice] 1123#604299: *661 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 52.87.251.89
+2024/11/11 13:18:00 [notice] 3413#444711: *270 upstream prematurely closed connection while reading response header from upstream, client: 35.227.233.104
+2024/11/11 13:19:00 [error] 7892#789681: *673 SSL_do_handshake() failed, client: 205.253.197.98
+2024/11/11 13:20:00 [warn] 8911#35684: *994 client intended to send too large body: 1234567 bytes, client: 34.122.53.81
+2024/11/11 13:21:00 [notice] 3315#733931: *312 worker_connections are not enough while connecting to upstream, client: 13.107.42.14
+2024/11/11 13:22:00 [notice] 8497#85535: *865 client stopped connection before send body completed, client: 18.246.123.89
+2024/11/11 13:23:00 [notice] 5459#251124: *197 client request body is too large (12582912 bytes) while reading client request body, client: 173.245.48.12
+2024/11/11 13:24:00 [notice] 6568#161155: *675 client stopped connection before send body completed, client: 157.241.22.35
+2024/11/11 13:25:00 [emerg] 9014#823356: *150 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 104.29.1.1
+2024/11/11 13:26:00 [notice] 7835#358680: *635 client stopped connection before send body completed, client: 204.95.177.45
+2024/11/11 13:27:00 [notice] 1197#794109: *714 upstream sent too big header while reading response header from upstream, client: 172.217.169.78
+2024/11/11 13:28:00 [notice] 6955#173699: *940 no live upstreams while connecting to upstream, client: 104.16.123.96
+2024/11/11 13:29:00 [notice] 1404#342300: *498 directory index of "/var/www/html/" is forbidden, client: 185.199.111.153
+2024/11/11 13:30:00 [notice] 6242#965777: *988 client request body is too large (12582912 bytes) while reading client request body, client: 13.32.99.150
+2024/11/11 13:31:00 [warn] 5969#341889: *648 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 205.251.197.98
+2024/11/11 13:32:00 [notice] 6066#379508: *996 SSL_do_handshake() failed, client: 23.187.0.253
+2024/11/11 13:33:00 [notice] 6452#748306: *481 directory index of "/var/www/html/" is forbidden, client: 172.218.10.46
+2024/11/11 13:34:00 [notice] 5089#649639: *357 permission denied while reading upstream response, client: 216.58.194.174
+2024/11/11 13:35:00 [notice] 8902#242775: *737 directory index of "/var/www/html/" is forbidden, client: 35.161.75.227
+2024/11/11 13:36:00 [warn] 5123#547301: *847 upstream prematurely closed connection while reading response header from upstream, client: 34.121.53.81
+2024/11/11 13:37:00 [warn] 7656#651408: *269 upstream prematurely closed connection while reading response header from upstream, client: 108.158.44.23
+2024/11/11 13:38:00 [notice] 4472#86158: *978 directory index of "/var/www/html/" is forbidden, client: 199.232.45.81
+2024/11/11 13:39:00 [notice] 1420#868521: *933 limiting requests, excess: 1.234 by zone "api_limit", client: 40.126.35.19
+2024/11/11 13:40:00 [emerg] 6020#913220: *276 client stopped connection before send body completed, client: 205.252.197.98
+2024/11/11 13:41:00 [warn] 2183#931103: *609 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 185.200.111.153
+2024/11/11 13:42:00 [alert] 5163#386469: *316 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 104.17.123.96
+2024/11/11 13:43:00 [notice] 5569#703382: *743 upstream sent too big header while reading response header from upstream, client: 40.128.35.19
+2024/11/11 13:44:00 [notice] 3659#856753: *71 client sent invalid header line, client: 172.217.10.46
+2024/11/11 13:45:00 [notice] 5725#905860: *693 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 173.247.48.12
+2024/11/11 13:46:00 [alert] 6398#523527: *147 directory index of "/var/www/html/" is forbidden, client: 204.95.177.45
+2024/11/11 13:47:00 [notice] 7438#699487: *307 client stopped connection before send body completed, client: 216.59.194.174
+2024/11/11 13:48:00 [notice] 7094#891378: *684 client stopped connection before send body completed, client: 23.47.67.89
+2024/11/11 13:49:00 [notice] 3691#840446: *734 client intended to send too large body: 1234567 bytes, client: 99.85.234.156
+2024/11/11 13:50:00 [notice] 4309#504432: *422 SSL_do_handshake() failed, client: 64.233.164.102
+2024/11/11 13:51:00 [warn] 7761#242850: *991 client intended to send too large body: 1234567 bytes, client: 104.29.1.1
+2024/11/11 13:52:00 [notice] 3204#999035: *3 worker process exited on signal 11, client: 99.84.234.156
+2024/11/11 13:53:00 [notice] 4711#11217: *359 SSL_do_handshake() failed, client: 23.23.62.155
+2024/11/11 13:54:00 [notice] 4565#699087: *964 client request body is too large (12582912 bytes) while reading client request body, client: 64.234.164.102
+2024/11/11 13:55:00 [notice] 3718#440729: *319 no live upstreams while connecting to upstream, client: 35.229.233.104
+2024/11/11 13:56:00 [emerg] 3797#620707: *429 client stopped connection before send body completed, client: 13.32.99.150
+2024/11/11 13:57:00 [notice] 6450#186264: *439 upstream sent too big header while reading response header from upstream, client: 198.51.100.23
+2024/11/11 13:58:00 [warn] 3660#320963: *846 client stopped connection before send body completed, client: 40.128.35.19
+2024/11/11 13:59:00 [notice] 8565#599725: *899 directory index of "/var/www/html/" is forbidden, client: 203.0.113.45
+2024/11/11 14:00:00 [notice] 7222#977351: *575 directory index of "/var/www/html/" is forbidden, client: 104.30.1.1
+2024/11/11 14:01:00 [error] 4386#759189: *756 worker process exited on signal 11, client: 34.102.136.180
+2024/11/11 14:02:00 [notice] 9836#427071: *990 client request body is too large (12582912 bytes) while reading client request body, client: 104.20.32.141
+2024/11/11 14:03:00 [error] 2032#604685: *323 SSL_do_handshake() failed, client: 23.47.67.89
+2024/11/11 14:04:00 [warn] 1823#545056: *229 client stopped connection before send body completed, client: 173.245.48.12
+2024/11/11 14:05:00 [crit] 6814#520272: *523 no live upstreams while connecting to upstream, client: 152.199.39.108
+2024/11/11 14:06:00 [notice] 9915#603885: *220 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 20.189.173.14
+2024/11/11 14:07:00 [notice] 6307#971573: *323 directory index of "/var/www/html/" is forbidden, client: 185.201.111.153
+2024/11/11 14:08:00 [crit] 2454#902809: *185 upstream prematurely closed connection while reading response header from upstream, client: 64.235.164.102
+2024/11/11 14:09:00 [warn] 5106#305295: *801 client stopped connection before send body completed, client: 64.233.164.102
+2024/11/11 14:10:00 [notice] 5852#842436: *291 client stopped connection before send body completed, client: 172.217.10.46
+2024/11/11 14:11:00 [notice] 2566#785426: *515 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 216.58.194.174
+2024/11/11 14:12:00 [crit] 9737#312360: *595 client sent invalid header line, client: 104.20.32.141
+2024/11/11 14:13:00 [notice] 8018#45580: *123 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 192.0.2.1
+2024/11/11 14:14:00 [notice] 4273#860077: *713 client stopped connection before send body completed, client: 152.200.39.108
+2024/11/11 14:15:00 [emerg] 5829#833501: *236 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 18.245.123.89
+2024/11/11 14:16:00 [notice] 1121#958965: *205 client intended to send too large body: 1234567 bytes, client: 104.18.123.96
+2024/11/11 14:17:00 [notice] 6448#445836: *965 client intended to send too large body: 1234567 bytes, client: 34.105.136.180
+2024/11/11 14:18:00 [notice] 6566#428353: *506 client request body is too large (12582912 bytes) while reading client request body, client: 13.108.42.14
+2024/11/11 14:19:00 [notice] 8123#777028: *61 directory index of "/var/www/html/" is forbidden, client: 52.85.251.89
+2024/11/11 14:20:00 [notice] 1822#171239: *949 worker process exited on signal 11, client: 151.101.129.69
+2024/11/11 14:21:00 [notice] 6163#744871: *480 client stopped connection before send body completed, client: 13.107.42.14
+2024/11/11 14:22:00 [notice] 1973#425977: *553 client stopped connection before send body completed, client: 203.0.113.45
+2024/11/11 14:23:00 [notice] 6550#396345: *694 client sent invalid header line, client: 199.233.45.81
+2024/11/11 14:24:00 [notice] 7681#289785: *969 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 3.33.152.147
+2024/11/11 14:25:00 [notice] 8935#91438: *723 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 104.16.123.96
+2024/11/11 14:26:00 [emerg] 7978#996479: *221 directory index of "/var/www/html/" is forbidden, client: 40.126.35.19
+2024/11/11 14:27:00 [warn] 8948#929610: *302 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 13.108.42.14
+2024/11/11 14:28:00 [notice] 9185#605665: *248 client stopped connection before send body completed, client: 172.217.10.46
+2024/11/11 14:29:00 [notice] 5359#716872: *491 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 23.45.67.89
+2024/11/11 14:30:00 [crit] 4990#286414: *209 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.219.10.46
+2024/11/11 14:31:00 [crit] 5577#666382: *565 SSL_do_handshake() failed, client: 199.233.45.81
+2024/11/11 14:32:00 [notice] 6449#73267: *124 limiting requests, excess: 1.234 by zone "api_limit", client: 157.240.241.35
+2024/11/11 14:33:00 [warn] 9150#1838: *382 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 173.247.48.12
+2024/11/11 14:34:00 [warn] 8182#952377: *131 worker process exited on signal 11, client: 162.159.135.42
+2024/11/11 14:35:00 [notice] 3154#448137: *567 rewrite or internal redirection cycle while processing "/index.html", client: 216.60.194.174
+2024/11/11 14:36:00 [alert] 1724#986582: *753 upstream sent too big header while reading response header from upstream, client: 23.45.67.89
+2024/11/11 14:37:00 [notice] 2751#567949: *441 permission denied while reading upstream response, client: 104.16.123.96
+2024/11/11 14:38:00 [notice] 9895#494817: *276 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 151.103.129.69
+2024/11/11 14:39:00 [notice] 9034#962081: *108 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 205.252.197.98
+2024/11/11 14:40:00 [notice] 2494#898262: *955 client sent invalid header line, client: 203.0.113.45
+2024/11/11 14:41:00 [notice] 1805#792723: *230 SSL_do_handshake() failed, client: 104.29.1.1
+2024/11/11 14:42:00 [notice] 8272#78633: *330 no live upstreams while connecting to upstream, client: 140.84.121.4
+2024/11/11 14:43:00 [notice] 3173#844621: *840 client stopped connection before send body completed, client: 23.185.0.253
+2024/11/11 14:44:00 [error] 2836#634917: *50 directory index of "/var/www/html/" is forbidden, client: 199.234.45.81
+2024/11/11 14:45:00 [warn] 4123#992451: *963 upstream prematurely closed connection while reading response header from upstream, client: 40.128.35.19
+2024/11/11 14:46:00 [warn] 8539#831850: *788 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 104.28.1.1
+2024/11/11 14:47:00 [emerg] 9147#939709: *521 rewrite or internal redirection cycle while processing "/index.html", client: 151.102.129.69
+2024/11/11 14:48:00 [notice] 8784#995433: *168 client sent invalid header line, client: 152.199.39.108
+2024/11/11 14:49:00 [notice] 3419#471862: *643 limiting requests, excess: 1.234 by zone "api_limit", client: 205.252.197.98
+2024/11/11 14:50:00 [notice] 9883#492289: *856 upstream sent too big header while reading response header from upstream, client: 185.201.111.153
+2024/11/11 14:51:00 [crit] 8097#893967: *322 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 192.1.2.1
+2024/11/11 14:52:00 [notice] 5360#165758: *353 no live upstreams while connecting to upstream, client: 44.227.178.9
+2024/11/11 14:53:00 [notice] 1248#170792: *123 no live upstreams while connecting to upstream, client: 151.103.1.195
+2024/11/11 14:54:00 [warn] 8421#686716: *905 directory index of "/var/www/html/" is forbidden, client: 40.126.35.19
+2024/11/11 14:55:00 [notice] 1993#612783: *85 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 34.121.53.81
+2024/11/11 14:56:00 [alert] 7404#425702: *823 client stopped connection before send body completed, client: 192.1.2.1
+2024/11/11 14:57:00 [notice] 6801#420062: *148 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 192.0.2.1
+2024/11/11 14:58:00 [notice] 1282#559012: *740 worker_connections are not enough while connecting to upstream, client: 34.104.136.180
+2024/11/11 14:59:00 [emerg] 3059#225514: *796 limiting requests, excess: 1.234 by zone "api_limit", client: 35.162.75.227
+2024/11/11 15:00:00 [warn] 7085#431625: *893 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 35.163.75.227
+2024/11/11 15:01:00 [notice] 8121#28698: *470 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 108.157.44.23
+2024/11/11 15:02:00 [notice] 6645#661824: *15 rewrite or internal redirection cycle while processing "/index.html", client: 108.156.44.23
+2024/11/11 15:03:00 [warn] 1068#852592: *980 no live upstreams while connecting to upstream, client: 216.58.194.174
+2024/11/11 15:04:00 [notice] 3102#175372: *178 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 44.230.178.9
+2024/11/11 15:05:00 [notice] 9245#829396: *892 SSL_do_handshake() failed, client: 173.247.48.12
+2024/11/11 15:06:00 [notice] 8957#608863: *304 SSL_do_handshake() failed, client: 185.200.108.153
+2024/11/11 15:07:00 [warn] 6811#294659: *455 upstream prematurely closed connection while reading response header from upstream, client: 18.246.123.89
+2024/11/11 15:08:00 [crit] 3550#450470: *459 client request body is too large (12582912 bytes) while reading client request body, client: 104.28.1.1
+2024/11/11 15:09:00 [notice] 7725#848936: *887 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 44.227.178.9
+2024/11/11 15:10:00 [notice] 6109#912379: *27 client sent invalid header line, client: 203.1.113.1
+2024/11/11 15:11:00 [notice] 1959#707117: *698 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 44.227.178.9
+2024/11/11 15:12:00 [notice] 1656#806084: *253 client sent invalid header line, client: 104.28.1.1
+2024/11/11 15:13:00 [notice] 6558#487836: *710 SSL_do_handshake() failed, client: 104.16.123.96
+2024/11/11 15:14:00 [notice] 1741#642932: *936 limiting requests, excess: 1.234 by zone "api_limit", client: 173.247.48.12
+2024/11/11 15:15:00 [emerg] 4908#791463: *775 client request body is too large (12582912 bytes) while reading client request body, client: 198.52.100.1
+2024/11/11 15:16:00 [crit] 4436#70820: *452 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 216.59.194.174
+2024/11/11 15:17:00 [crit] 1806#734708: *36 SSL_do_handshake() failed, client: 146.77.50.232
+2024/11/11 15:18:00 [notice] 2523#66163: *241 permission denied while reading upstream response, client: 99.86.234.156
+2024/11/11 15:19:00 [alert] 6158#677294: *257 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 23.24.62.155
+2024/11/11 15:20:00 [warn] 6756#984710: *890 worker process exited on signal 11, client: 151.102.129.69
+2024/11/11 15:21:00 [notice] 4357#621465: *783 directory index of "/var/www/html/" is forbidden, client: 99.85.234.156
+2024/11/11 15:22:00 [notice] 2885#227091: *993 client stopped connection before send body completed, client: 151.103.129.69
+2024/11/11 15:23:00 [notice] 3606#102087: *228 SSL_do_handshake() failed, client: 104.18.32.141
+2024/11/11 15:24:00 [notice] 1276#141253: *510 no live upstreams while connecting to upstream, client: 99.86.234.156
+2024/11/11 15:25:00 [notice] 1012#310558: *531 worker_connections are not enough while connecting to upstream, client: 151.101.129.69
+2024/11/11 15:26:00 [notice] 1009#187723: *221 directory index of "/var/www/html/" is forbidden, client: 3.34.152.147
+2024/11/11 15:27:00 [notice] 7772#713964: *766 directory index of "/var/www/html/" is forbidden, client: 52.41.144.31
+2024/11/11 15:28:00 [notice] 1741#205458: *497 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 151.101.65.69
+2024/11/11 15:29:00 [error] 5120#675472: *174 client stopped connection before send body completed, client: 35.187.224.25
+2024/11/11 15:30:00 [notice] 4089#526461: *883 client sent invalid header line, client: 35.187.224.25
+2024/11/11 15:31:00 [warn] 2374#257166: *42 directory index of "/var/www/html/" is forbidden, client: 162.161.135.42
+2024/11/11 15:32:00 [notice] 1333#733803: *382 client intended to send too large body: 1234567 bytes, client: 185.89.181.4
+2024/11/11 15:33:00 [notice] 9588#985246: *108 upstream sent invalid header while reading response header from upstream, client: 13.35.99.150
+2024/11/11 15:34:00 [notice] 9872#196080: *72 rewrite or internal redirection cycle while processing "/index.html", client: 35.161.75.227
+2024/11/11 15:35:00 [notice] 9819#229155: *161 directory index of "/var/www/html/" is forbidden, client: 35.227.233.104
+2024/11/11 15:36:00 [notice] 4056#374068: *950 no live upstreams while connecting to upstream, client: 13.108.42.14
+2024/11/11 15:37:00 [notice] 9833#711442: *918 client sent invalid header line, client: 52.87.251.89
+2024/11/11 15:38:00 [notice] 9744#991942: *214 no live upstreams while connecting to upstream, client: 104.17.123.96
+2024/11/11 15:39:00 [error] 3694#465215: *815 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 198.51.100.23
+2024/11/11 15:40:00 [emerg] 2663#596872: *836 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 104.246.42.193
+2024/11/11 15:41:00 [notice] 4571#160469: *202 SSL_do_handshake() failed, client: 52.87.251.89
+2024/11/11 15:42:00 [notice] 5743#998399: *758 SSL_do_handshake() failed, client: 54.193.18.56
+2024/11/11 15:43:00 [alert] 9039#884694: *222 client stopped connection before send body completed, client: 172.217.10.46
+2024/11/11 15:44:00 [emerg] 9911#9466: *63 upstream sent too big header while reading response header from upstream, client: 152.201.39.108
+2024/11/11 15:45:00 [warn] 6932#262714: *25 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 142.252.187.206
+2024/11/11 15:46:00 [warn] 7654#300687: *836 could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64, client: 205.251.197.98
+2024/11/11 15:47:00 [alert] 4081#927705: *502 directory index of "/var/www/html/" is forbidden, client: 23.24.62.155
+2024/11/11 15:48:00 [notice] 8328#247171: *328 no live upstreams while connecting to upstream, client: 34.122.53.81
+2024/11/11 15:49:00 [notice] 2331#497776: *34 client stopped connection before send body completed, client: 192.0.2.1
+2024/11/11 15:50:00 [notice] 1295#968116: *764 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 172.219.10.46
+2024/11/11 15:51:00 [notice] 5094#541440: *366 client stopped connection before send body completed, client: 13.107.42.14
+2024/11/11 15:52:00 [notice] 5745#606206: *285 directory index of "/var/www/html/" is forbidden, client: 151.103.1.195
+2024/11/11 15:53:00 [notice] 7056#556117: *156 SSL_do_handshake() failed, client: 104.28.1.1
+2024/11/11 15:54:00 [warn] 1906#543411: *899 upstream sent too big header while reading response header from upstream, client: 108.156.44.23
+2024/11/11 15:55:00 [notice] 2970#24298: *903 client sent invalid header line, client: 52.39.144.31
+2024/11/11 15:56:00 [crit] 1056#702851: *555 worker_connections are not enough while connecting to upstream, client: 13.109.42.14
+2024/11/11 15:57:00 [error] 5053#582423: *547 client sent invalid header line, client: 185.201.111.153
+2024/11/11 15:58:00 [crit] 5412#157506: *613 client stopped connection before send body completed, client: 172.217.169.78
+2024/11/11 15:59:00 [notice] 4090#581560: *362 rewrite or internal redirection cycle while processing "/index.html", client: 40.127.35.19
+2024/11/11 16:00:00 [alert] 8309#717659: *92 client sent invalid header line, client: 13.32.99.150
+2024/11/11 16:01:00 [notice] 2767#439480: *350 SSL_do_handshake() failed, client: 198.51.100.1
+2024/11/11 16:02:00 [warn] 7319#966154: *728 client stopped connection before send body completed, client: 18.246.123.89
+2024/11/11 16:03:00 [error] 2117#394464: *810 directory index of "/var/www/html/" is forbidden, client: 152.199.39.108
+2024/11/11 16:04:00 [notice] 9237#349253: *682 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 172.218.10.46
+2024/11/11 16:05:00 [alert] 6606#712127: *949 worker process exited on signal 11, client: 173.246.48.12
+2024/11/11 16:06:00 [error] 6034#153549: *844 client stopped connection before send body completed, client: 13.36.99.150
+2024/11/11 16:07:00 [notice] 7782#375079: *484 upstream sent invalid header while reading response header from upstream, client: 172.218.10.46
+2024/11/11 16:08:00 [notice] 6987#38752: *528 client stopped connection before send body completed, client: 99.84.234.156
+2024/11/11 16:09:00 [error] 1173#890867: *266 client sent invalid header line, client: 13.36.99.150
+2024/11/11 16:10:00 [notice] 4973#307744: *614 worker_connections are not enough while connecting to upstream, client: 104.29.1.1
+2024/11/11 16:11:00 [notice] 3458#723458: *547 upstream prematurely closed connection while reading response header from upstream, client: 151.102.129.69
+2024/11/11 16:12:00 [notice] 2934#561575: *749 worker process exited on signal 11, client: 23.187.0.253
+2024/11/11 16:13:00 [notice] 4839#938552: *50 permission denied while reading upstream response, client: 157.240.22.35
+2024/11/11 16:14:00 [crit] 5658#383713: *11 client stopped connection before send body completed, client: 104.16.123.96
+2024/11/11 16:15:00 [notice] 5644#230013: *814 client stopped connection before send body completed, client: 198.51.100.23
+2024/11/11 16:16:00 [notice] 2811#207985: *333 client intended to send too large body: 1234567 bytes, client: 104.19.32.141
+2024/11/11 16:17:00 [warn] 6815#387629: *458 upstream sent invalid header while reading response header from upstream, client: 40.126.35.19
+2024/11/11 16:18:00 [emerg] 4920#641663: *744 directory index of "/var/www/html/" is forbidden, client: 142.252.187.206
+2024/11/11 16:19:00 [warn] 2876#796959: *941 upstream sent invalid header while reading response header from upstream, client: 198.51.100.1
+2024/11/11 16:20:00 [warn] 9604#152416: *386 directory index of "/var/www/html/" is forbidden, client: 20.189.173.14
+2024/11/11 16:21:00 [notice] 5363#533929: *899 SSL_do_handshake() failed, client: 64.233.164.102
+2024/11/11 16:22:00 [alert] 7879#551856: *326 worker_connections are not enough while connecting to upstream, client: 104.244.42.193
+2024/11/11 16:23:00 [warn] 7097#692992: *836 client stopped connection before send body completed, client: 35.189.224.25
+2024/11/11 16:24:00 [crit] 9455#835749: *810 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 54.192.18.56
+2024/11/11 16:25:00 [notice] 2444#201891: *414 limiting requests, excess: 1.234 by zone "api_limit", client: 34.122.53.81
+2024/11/11 16:26:00 [notice] 6501#80628: *394 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 35.163.75.227
+2024/11/11 16:27:00 [crit] 1960#163185: *880 upstream sent invalid header while reading response header from upstream, client: 35.189.224.25
+2024/11/11 16:28:00 [emerg] 7519#133431: *120 worker_connections are not enough while connecting to upstream, client: 185.200.108.153
+2024/11/11 16:29:00 [warn] 2868#685770: *591 client stopped connection before send body completed, client: 3.33.152.147
+2024/11/11 16:30:00 [notice] 6779#609796: *331 SSL_do_handshake() failed, client: 173.247.48.12
+2024/11/11 16:31:00 [notice] 3634#588343: *411 client request body is too large (12582912 bytes) while reading client request body, client: 108.156.44.23
+2024/11/11 16:32:00 [error] 9703#390814: *690 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 52.41.144.31
+2024/11/11 16:33:00 [notice] 4981#440974: *389 permission denied while reading upstream response, client: 205.251.197.98
+2024/11/11 16:34:00 [notice] 8957#844950: *551 permission denied while reading upstream response, client: 216.58.194.174
+2024/11/11 16:35:00 [notice] 6034#692355: *727 client stopped connection before send body completed, client: 54.192.18.56
+2024/11/11 16:36:00 [error] 1137#839433: *555 access forbidden by rule, client: 192.168.1.1, server: example.com, request: "GET /admin/ HTTP/1.1", client: 104.29.1.1
+2024/11/11 16:37:00 [notice] 9884#65075: *826 upstream sent too big header while reading response header from upstream, client: 104.16.123.96
+2024/11/11 16:38:00 [error] 7777#583462: *326 limiting requests, excess: 1.234 by zone "api_limit", client: 173.246.48.12
+2024/11/11 16:39:00 [notice] 4917#777752: *193 permission denied while reading upstream response, client: 52.40.144.31
