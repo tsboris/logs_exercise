@@ -1,10 +1,51 @@
 filebeat.inputs:
-- type: filestream
-  id: default-filestream
+- type: log
+  enabled: true
   paths:
-    - ingest_data/*.log
+    - ingest_data/nginx_access.log
+  # Define processors to parse each line and add custom fields
+  processors:
+    - dissect:
+        # Log line sample
+        # 111.254.224.51 - - [05/Jan/2024:06:30:00 +0000] "GET /products HTTP/1.1" 302 2280 "/checkout" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" 0.249
+        tokenizer: '%{source_ip} - - [%{timestamp}] "%{method} %{resource} %{http_protocol}" %{status|long} %{req_size|long} "%{referer}" "%{user_agent}" %{request_time|float}'
+        field: "message"
+        target_prefix: "nginx_access"
+    - timestamp:
+        field: "nginx_access.timestamp"
+        target_field: "@timestamp"
+        layouts:
+          - '02/Jan/2006:15:04:05 +0000'
+        timezone: 'UTC'
+        output_format: "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
 
-setup.kibana:
+- type: log
+  enabled: true
+  paths:
+    - ingest_data/nginx_error.log
+  # Define processors to parse each line and add custom fields
+  processors:
+    - dissect:
+        # Log line sample
+        # 2024/01/01 00:00:00 [error] 1202#905065: *676 permission denied while reading upstream response, client: 52.84.251.89
+        tokenizer: '%{timestamp} [%{error_level}] %{pid|long}#%{tid|long}: *%{connection_id|long} %{error_message}, client: %{client_ip}'
+        field: "message"
+        target_prefix: "nginx_error"
+    - timestamp:
+        field: "nginx_error.timestamp"
+        target_field: "@timestamp"
+        layouts:
+          - '2006/01/02 15:04:05'
+        timezone: 'UTC'
+        output_format: "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
+
+setup:
+  template:
+    enabled: true
+  ilm:
+    enabled: true
+    overwrite: true
+  kibana:
     host: ${KIBANA_HOSTS}
     username: ${ELASTIC_USER}
     password: ${ELASTIC_PASSWORD}
