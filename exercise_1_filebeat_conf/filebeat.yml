@@ -1,8 +1,74 @@
 filebeat.inputs:
-- type: filestream
-  id: default-filestream
+# Log line sample
+# 111.254.224.51 - - [05/Jan/2024:06:30:00 +0000] "GET /products HTTP/1.1" 302 2280 "/checkout" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" 0.249
+- type: log
+  enabled: true
   paths:
-    - ingest_data/*.log
+    - ingest_data/nginx_access.log
+  # Define processors to parse each line and add custom fields
+  processors:
+    - dissect:
+        tokenizer: '%{source_ip} - - [%{timestamp}] "%{method} %{resource} %{http_protocol}" %{status|integer} %{req_size|integer} "%{referer}" "%{user_agent}" %{request_time}'
+        field: "message"
+        target_prefix: "nginx_access"
+    - timestamp:
+        field: "nginx_access.timestamp"
+        target_field: "nginx_access_timestamp"
+        layouts:
+          - '02/Jan/2006:15:04:05 +0000'
+        timezone: 'UTC'
+        output_format: "yyyy-MM-dd'T'HH:mm:ss.SSSXXX"
+
+# Log line sample
+# 2024/09/18 20:15:16 [crit] 1324#59: *3715 PHP message: PHP Warning
+- type: log
+  enabled: true
+  paths:
+    - ingest_data/nginx_error.log
+  # Define processors to parse each line and add custom fields
+  processors:
+    - dissect:
+        tokenizer: '%{timestamp} [%{error_level}] %{pid}#%{tid}: *%{connection_id} %{error_message}'
+        field: "message"
+        target_prefix: "nginx_error"
+    - timestamp:
+        field: "nginx_error.timestamp"
+        target_field: "nginx_error_timestamp"
+        layouts:
+          - '2006/01/02 15:04:05'
+        timezone: 'UTC'
+
+# Log line sample
+# 2024-12-01 14:07:44 - INFO - User buyer789 performed remove_from_cart on Smartwatch
+# 2024-12-01 14:07:44 - ERROR - Order Processing Error: Payment processing failed for user user123
+# Traceback (most recent call last):
+#   File "/Users/borist/develeap/seniority/log-analysis-demo/nginx_test_gen_ai/generate_python_multiline_log.py", line 37, in <module>
+#     raise OrderProcessingError(f"Payment processing failed for user {user}")
+# OrderProcessingError: Payment processing failed for user user123
+# 2024-12-01 14:07:44 - INFO - User user123 performed add_to_cart on Tablet
+- type: log
+  enabled: true
+  paths:
+    - ingest_data/python_example.log
+  multiline:
+    pattern: '^[0-9]{4}-[0-9]{2}-[0-9]{2}'
+    negate: true
+    match: after
+  processors:
+    - dissect:
+        tokenizer: '%{timestamp} - %{log_level} - %{message}'
+        field: "message"
+        target_prefix: "python"
+    - script:
+        lang: javascript
+        source: >
+          function process(event) {
+            if (event.Get("python.log_level") === "ERROR") {
+              var msg = event.Get("message");
+              var lines = msg.split("\n");
+              event.Put("error.stack_trace", lines);
+            }
+          }
 
 setup.kibana:
     host: ${KIBANA_HOSTS}
